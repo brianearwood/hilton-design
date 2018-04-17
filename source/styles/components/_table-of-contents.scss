@@ -1,0 +1,72 @@
+.toc {
+
+  &__listing {
+    margin-bottom: 6rem;
+    ul {
+      margin: 0;
+      padding: 0;
+      list-style-type: none;
+      
+      a {
+        padding: 0.4rem 0.6rem;
+        display: block;
+        position: relative;
+
+        &:after {
+          content: "";
+          position: absolute;
+          width: 0%;
+          left: 0;
+          top: 0;
+          height: 100%;
+          z-index: -1;
+          background: $middle-blue;
+          opacity: 0.0;
+          transition: 0.3s $ease-out-cubic;
+        }
+
+        @include hover {
+          cursor: pointer;
+          width: 100%;
+          opacity: 1.0;
+        }
+        
+        @media only screen and (max-width: $bp-medium - 1) {
+          padding: 0.6rem 0rem 0.6rem 0rem;
+        }
+        @media only screen and (max-width: $bp-small - 1) {
+          display: block;
+        }
+      }
+    }
+    
+    
+    @media only screen and (max-width: $bp-xlarge - 1) {
+      margin-left: -1.5rem;
+    }
+    @media only screen and (max-width: $bp-medium - 1) {
+      margin-left: 23%;
+      margin-top: 3rem;
+    }
+  }
+
+  ul.sub-menu {
+    a {
+      font-size: 0.8rem;
+      color: $middle-gray;
+      padding: 0.2rem 1rem 0.2rem 2rem;
+      @media only screen and (max-width: $bp-medium - 1) {
+        padding: 0.6rem 1rem 0.6rem 2rem;
+      }
+    }
+    margin-bottom: 1rem;
+  }
+
+  &__sub-menu.collapsed {
+    
+  }
+
+  &__heading {
+    font-weight: $font-weight-bold;
+  }
+}

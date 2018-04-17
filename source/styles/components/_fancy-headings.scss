@@ -1,0 +1,77 @@
+.fancy-heading {
+  padding: 2rem 2rem 2rem 4rem;
+  border: 14px solid #144c95;
+  background: $white;
+  position: relative;
+
+  &.fancy-heading-transparent {
+    background: transparent;
+  }
+
+  &__heading-text {
+    @extend %heading-text;
+    color: $dark-blue;
+    font-weight: $font-weight-heavy;
+  }
+
+  &__fancy-text {
+    @extend %fancy-text;
+    color: $middle-blue;
+  }
+
+  &.left {
+    border-left: none;
+  }
+
+  &.right {
+    border-right: none;
+  }
+
+  .toc & {
+    margin: 5rem 0rem 3rem -5rem;
+  }
+  
+  // Customize Heading Blocks
+  .chapter__executive-lounge & {
+    &__heading-text {
+      position: absolute;
+      left: 90px;
+      top: 50px;
+    }
+  }
+  .chapter__case-studies & {
+    &__heading-text {
+      position: absolute;
+      left: 90px;
+      top: 50px;
+    }
+  }
+  
+  @media only screen and (max-width: $bp-xlarge - 1) {
+    padding: 1rem 2rem 2rem 2rem;
+    .toc & {
+      margin: 3rem 0rem 2rem -2rem;
+    }
+
+    &__fancy-text {
+      font-size: 6rem;
+    }
+  }
+
+  @media only screen and (max-width: $bp-medium - 1) {
+    padding: 1rem 1rem 1rem 2rem;
+    position: absolute;
+    right: 0;
+    top: 225px;
+    width: 77%;
+    border: 5px solid #144c95;
+    .toc & {
+      margin: 0;
+    }
+    
+    &__fancy-text {
+      font-size: 3.5rem;
+    }
+  }
+}
+

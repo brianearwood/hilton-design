@@ -1,0 +1,24 @@
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  margin-bottom: $headings-margin-bottom;
+  font-family: $headings-font-family;
+  font-weight: $headings-font-weight;
+  line-height: $headings-line-height;
+  color: $headings-color;
+}
+
+h1 {
+  font-size: 2rem;
+  color: $dark-blue;
+  font-weight: 900;
+}
+h2 {
+  font-size: 1.5rem;
+  color: $middle-blue;
+  font-weight: 400;
+  margin-bottom: 2rem;
+}
+
+strong {
+  
+}

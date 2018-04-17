@@ -1,0 +1,142 @@
+
+.chapter__toc {
+  // height: $content-area-height-desktop;
+  margin-top: $header-height-desktop;
+  @media only screen and (max-width: $bp-large - 1) {
+    // height: $content-area-height-mobile;
+    margin-top: $header-height-mobile;
+  }
+}
+// .section-horizontal-nav {
+//   position: fixed;
+//   width: 100%;
+//   top: 50%;
+//   margin-top: -40px;
+//   height: 0;
+//   z-index: 1000;
+
+//   button {
+//     background: $white;
+//     border-radius: 100%;
+//     width: 2.5rem;
+//     height: 2.5rem;
+//     line-height: 0;
+//     border: 1px solid gray;
+
+//     &:hover {
+//       cursor: pointer;
+//       background: $middle-blue;
+//       border: 1px solid $middle-blue;
+//       svg {
+//         fill: $white;
+//       }
+//     }
+//   }
+//   .btn-prev {
+//     float: left;
+//     margin-left: 1rem;
+//     padding: 0rem 0rem 0rem 0rem;
+//   }
+//   .btn-next {
+//     float: right;
+//     margin-right: 1rem;
+//     padding: 0rem 0rem 0rem 0.2rem;
+//   }
+// }
+.section {
+  &__image {
+    line-height: 0;
+  }
+  &__content {
+    // min-height: 100vh;
+    padding: 0 6rem;
+    @media only screen and (max-width: $bp-large - 1) {
+      padding: 0 4rem;
+    }
+  }
+}
+
+
+
+
+.pages {
+
+}
+.page {
+  
+  &__hero {
+    line-height: 0;
+    @extend %content-height-desktop;
+    img {
+      width: 100%;
+      height: 100%;
+    }
+
+    @media only screen and (max-width: $bp-large - 1) {
+      height: calc(100vh - #{$header-footer-height-mobile});
+      // height: 268px;
+      img {
+        width: 90%;
+      }
+    }
+    @media only screen and (max-width: $bp-medium - 1) {
+      // height: calc(100vh - #{$header-footer-height-mobile});
+      height: 268px;
+      img {
+        width: 90%;
+      }
+    }
+  }
+}
+
+
+.page-nav {
+  
+  a {
+    color: $white;
+    display: block;
+    padding: 3rem;
+    padding-bottom: 7rem;
+    transition: background-color 0.3s $ease-out-cubic;
+  }
+  &__prev {
+    background-color: $middle-blue;
+
+    &:hover {
+      background-color: lighten($middle-blue, 5%);
+    }
+  }
+  .prev-arrow {
+  
+    svg {
+      fill: $white;
+    }
+  }
+
+  &__next {
+    background: $dark-blue;
+
+    &:hover {
+      background: lighten($dark-blue, 5%);
+    }
+  }
+  .next-arrow {
+    svg {
+
+    }
+  }
+
+  &__title {
+    display: block;
+  }
+  &__sub-title {
+    display: block;
+    opacity: 0.7;
+    font-size: 0.8rem;
+  }
+
+}
+
+
+
+

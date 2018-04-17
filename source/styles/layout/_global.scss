@@ -1,0 +1,111 @@
+
+.global {
+  width: 100%;
+  margin: auto;
+
+  &__header {
+    background: $dark-blue;
+    width: 100%;
+    max-height: 103px;
+    padding: 0.5rem 2rem;
+    color: $white;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+
+    // display: none;
+
+    > .container {
+      position: relative;
+    }
+  }
+
+  &__logo {
+    text-align: center;
+    display: block;
+    @media only screen and (max-width: $bp-large - 1) {
+      max-width: 68px;
+      width: 68px;
+      margin: auto;
+      img {
+        width: 100%;
+      }
+    }
+  }
+
+  &__footer {
+    width: 100%;
+    margin: auto;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    // display: none;
+  }
+
+  &__footer-nav {
+    ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+    li {
+      
+    }
+    a {
+      line-height: 0;
+      display: block;
+      padding: 1.5rem 0;
+      text-align: center;
+      color: $white;
+      text-decoration: none;
+      font-weight: $font-weight-regular;
+      background: $middle-gray;
+      transition: 0.2s $ease-out-cubic;
+      transition-property: padding-bottom;
+      padding-bottom: 1.5rem;
+
+      &:hover {
+        background: darken($middle-gray, 5%);
+        padding-bottom: 2.0rem;
+      }
+      &.active {
+        background: $dark-blue;
+        font-weight: $font-weight-bold;
+      }
+    }
+    
+    @media only screen and (max-width: $bp-large - 1) {
+      font-size: 0.8rem;
+    }
+    @media only screen and (max-width: $bp-medium - 1) {
+      display: none;
+    }
+  }
+}
+
+.content-area {
+  // height: $content-area-height-desktop;
+  // margin-top: $header-height-desktop;
+  position: relative;
+  @media only screen and (max-width: $bp-large - 1) {
+    // height: $content-area-height-mobile;
+    // margin-top: $header-height-mobile;
+  }
+  @media only screen and (max-width: $bp-medium - 1) {
+    position: static;
+  }
+}
+
+.fit-to-viewport {
+  height: 100vh;
+}
+
+.full-text-page {
+
+}
+
+.block {
+  margin-bottom: 2rem;
+}

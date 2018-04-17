@@ -1,0 +1,8 @@
+.title-block {
+  border: 4px solid $dark-blue;
+  padding: 1rem;
+
+  &__opaque {
+    background: $white;
+  }
+}

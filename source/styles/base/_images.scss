@@ -1,0 +1,28 @@
+img {
+
+}
+
+img.constrain-height {
+  @media only screen and (min-width: $bp-large) {
+    max-height: $content-area-height-desktop;
+  }
+  @media only screen and (max-width: $bp-large - 1) {
+    max-height: $content-area-height-mobile;
+  }
+}
+
+img.object-fit {
+  object-fit: cover;
+  object-position: center;
+  font-family: 'object-fit: cover;';
+  width: 100%;
+  height: 100%;
+}
+img.object-fit-contain {
+  object-fit: contain;
+  object-position: center;
+  font-family: 'object-fit: contain;';
+  width: 100%;
+  height: 100%;
+}
+

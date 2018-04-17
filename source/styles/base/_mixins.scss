@@ -1,0 +1,53 @@
+@mixin font($style) {
+  font-family: map-get($font-styles, $style);
+}
+
+%content-height-desktop {
+  height: calc(100vh - #{$header-footer-height-desktop});
+}
+%content-height-mobile {
+  height: calc(100vh - #{$header-footer-height-mobile});
+}
+
+%heading-text {
+  font-family: map-get($font-styles, "regular");
+  font-size: 2rem;
+  line-height: 1;
+}
+%fancy-text {
+  font-family: map-get($font-styles, "script");
+  font-size: 8rem;
+  line-height: 1;
+}
+
+
+// Hover
+
+@mixin hover {
+  &:hover { @content; }
+}
+
+@mixin hover-focus {
+  &:hover,
+  &:focus {
+    @content;
+  }
+}
+
+@mixin plain-hover-focus {
+  &,
+  &:hover,
+  &:focus {
+    @content;
+  }
+}
+
+@mixin hover-focus-active {
+  &:hover,
+  &:focus,
+  &:active {
+    @content;
+  }
+}
+
+

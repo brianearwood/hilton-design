@@ -1,0 +1,54 @@
+.chapter__case-studies {
+  .fancy-heading {
+    margin-bottom: 3rem;
+    
+    &__heading-text {
+      left: 80px;
+      bottom: 50px;
+      top: auto;
+    }
+    &__fancy-text {
+      line-height: 1.4;
+    }
+  }
+
+  .row-bg-image {
+    background-color: #ccc;
+  }
+
+  .case-study-content-area {
+    color: $white;
+
+    p {
+      margin-bottom: 4rem;
+    }
+  }
+  .case-study-screen-bg {
+    background-color: rgba(0,0,0,0.9);
+  }
+  
+  .lobby-case-studies-des-moines {
+    .row-bg-image {
+      background: url("/img/chapter-lobby/case-studies/01_DesMoines/01_Cover.jpg");
+      background-position: center;
+      background-size: cover;
+    }
+  }
+
+  .lobby-case-studies-buena-park {
+    .row-bg-image {
+      background: url("/img/chapter-lobby/case-studies/02-BuenaPark/Cover.jpg");
+      background-position: center;
+      background-size: cover;
+    }
+  }
+
+  .lobby-case-studies-santa-fe {
+    .row-bg-image {
+      background: url("/img/chapter-lobby/case-studies/03_SantaFe/Lobby.jpg");
+      background-position: center;
+      background-size: cover;
+    }
+  }
+}
+
