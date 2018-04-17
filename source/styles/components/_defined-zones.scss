@@ -26,11 +26,13 @@
   }
 
   .defined-zones-nav {
+    margin: 0;
+    padding: 0;
     margin-bottom: 3rem;
     li {
       a {
         white-space: nowrap;
-        padding: 1rem;
+        padding: 0.5rem;
         background-color: $white;
         color: $middle-gray;
         border: 1px solid;
@@ -52,9 +54,9 @@
         background: $middle-blue;
         color: $white;
         border-radius: 100%;
-        width: 30px;
-        height: 30px;
-        line-height: 1.9;
+        width: 25px;
+        height: 25px;
+        line-height: 1.6;
         text-align: center;
       }
       

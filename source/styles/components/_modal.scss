@@ -266,9 +266,11 @@
 
 
   &.type-2 {
+    .modal-title {
+      font-size: 2rem;
+    }
     .image {
       padding: 2rem;
-
     }
     .modal-nav-arrows {
       svg {
