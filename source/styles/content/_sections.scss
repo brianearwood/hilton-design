@@ -53,6 +53,9 @@
     @media only screen and (max-width: $bp-large - 1) {
       padding: 0 4rem;
     }
+    @media only screen and (max-width: $bp-small - 1) {
+      padding: 0 1rem;
+    }
   }
 }
 
@@ -97,13 +100,21 @@
     display: block;
     padding: 3rem;
     padding-bottom: 7rem;
-    transition: background-color 0.3s $ease-out-cubic;
+    transition: background-color 0.3s $ease-out-cubic; 
+
+    @media only screen and (max-width: $bp-medium - 1) {
+      padding: 1rem 2rem;
+    }   
   }
   &__prev {
     background-color: $middle-blue;
 
     &:hover {
       background-color: lighten($middle-blue, 5%);
+    }
+
+    @media only screen and (max-width: $bp-medium - 1) {
+      text-align: left;
     }
   }
   .prev-arrow {
@@ -118,6 +129,10 @@
 
     &:hover {
       background: lighten($dark-blue, 5%);
+    }
+
+    @media only screen and (max-width: $bp-medium - 1) {
+      text-align: right;
     }
   }
   .next-arrow {

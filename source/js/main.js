@@ -21,24 +21,15 @@
       // this.pjax();
       // this.smartscroll();
       this.initListeners();
-
+      this.resizeModals();
     },
 
-    // resize: function() {
-        // grab a reference to HH
-        // var self = this;
-        // $(window).resize(function() {
-        //   if (window.matchMedia("(max-width: 576px)").matches) {
-        //     /* the viewport is at least 400 pixels wide */
-        //     // $(".megamenu").removeClass("active");
-        //     // $(".mobile-search-form-container").removeClass("active");
-        //     $(".megamenu__chapter").addClass('collapsed');
-        //   } else {
-        //     $(".megamenu__chapter").removeClass('collapsed');
-        //     $(".megamenu__heading").off("click");
-        //   }
-        // });
-    // },
+    resize: function() {
+        var self = this;
+        $(window).resize(function() {
+          self.resizeModals();
+        });
+    },
 
     megamenu: function () {
       var button = $(".js-megamenu-button");
@@ -102,9 +93,21 @@
         menu: '#section-menu',
         scrollOverflow: true,
         responsiveWidth: 992,
-        responsiveHeight: 768,
+        responsiveHeight: 800,
         bigSectionsDestination: 'top',
-        fitToSection: false
+        fitToSection: false,
+        afterResponsive:  function(isResponsive){
+          // $.fn.fullpage.destroy('all');
+          if (isResponsive) {
+            $.fn.fullpage.setAutoScrolling(false);
+            $("#section-menu").addClass("no-display");
+          }
+          else {
+            $.fn.fullpage.setAutoScrolling(true);
+            $("#section-menu").removeClass("no-display");
+          }
+          
+        }
       });
 
       $(document)
@@ -148,6 +151,16 @@
 
     modals: function () {
       // Type 1 Modal (Defined Zones)
+
+      // capture event from Bootstrap Modal js 
+      $(document).on('shown.bs.modal', function (e) {
+        HH.resizeModals();
+      });
+
+      // $(document).on('click', '[data-toggle="modal"]', function (event) {
+        
+      // });
+
       $(".modal-nav a").on('click', function (event) {
         event.preventDefault();
         var link = $(this).data('modal_link');
@@ -168,6 +181,8 @@
             $(this).addClass('active');
           }
         });
+
+        HH.resizeModals();
       });
 
       // Type 2 Modal (Case Studies)
@@ -196,6 +211,15 @@
       });
     },
 
+    resizeModals: function () {
+      if( $('body').hasClass("modal-open") ) {
+        var image_height = $(".image.active:visible").height();
+        console.log(image_height);
+        $(".hilton-modal .modal-body:visible").height( image_height );
+        $(".hilton-modal .modal-descriptions:visible").height( image_height );
+      }
+    },
+
     initListeners: function () {
       // $(document).on('ready pjax:start', function(event) {
       //   // $.fn.fullpage.destroy();
@@ -210,11 +234,11 @@
 
   HH.init();
 
+  $(window).resize(function() {
+      HH.resize();
+  });
 
-
-  // $(window).resize(function() {
-  //     HH.resize();
-  // })
+  $(window).trigger('resize');
 
 })(jQuery);
 

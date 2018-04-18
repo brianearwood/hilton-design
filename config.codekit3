@@ -12324,6 +12324,13 @@
 		"oAP": "\/build\/includes\/defined-zones-modals\/_arrival.html",
 		"oF": 0
 		},
+	"\/source\/includes\/defined-zones-modals\/_bistro.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/build\/includes\/defined-zones-modals\/_bistro.html",
+		"oF": 0
+		},
 	"\/source\/includes\/defined-zones-modals\/_lounge.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -12912,7 +12919,7 @@
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-punDog",
 	"iconImageWasSetByUser": 1,
-	"lastBuiltDate": 545672268
+	"lastBuiltDate": 545762752
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
