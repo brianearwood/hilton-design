@@ -1,13 +1,31 @@
 blockquote {
-  margin: 0;
-  margin-bottom: 2rem;
+  margin: 1rem 0;
   padding-left: 1rem;
-  border-left: 8px solid $dark-blue;
+  padding-right: 1rem;
+  border-left: 6px solid $middle-blue;
 
   h1 {
-    font-size: 1.2rem;
+    font-size: 1.5vw;
   }
   p {
-    font-size: 0.9rem;
+    font-size: 1.3vw;
+  }
+
+  @media only screen and (min-width: $bp-large) {
+    h1 {
+      font-size: 1rem;
+    }
+    p {
+      font-size: 0.9rem;
+    }
+  }
+
+  @media only screen and (max-width: $bp-medium - 1) {
+    h1 {
+      font-size: 1rem;
+    }
+    p {
+      font-size: 0.9rem;
+    }
   }
 }

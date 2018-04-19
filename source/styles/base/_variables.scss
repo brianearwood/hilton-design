@@ -7,16 +7,20 @@ $bp-xlarge: 1200px;
 
 
 // Geometry
-$header-height-desktop: 103px;
-$footer-height-desktop: 48px;
-$header-height-mobile:  75px;
-$footer-height-mobile:  48px;
+$header-height-desktop: 72px;
+$footer-height-desktop: 32px;
+$header-height-mobile:  72px;
+$footer-height-mobile:  32px;
 
 $header-footer-height-desktop: $header-height-desktop + $footer-height-desktop;
 $header-footer-height-mobile: $header-height-mobile + $footer-height-mobile;
 
 $content-area-height-desktop: calc(100vh - #{$header-footer-height-desktop});
 $content-area-height-mobile: calc(100vh - #{$header-footer-height-mobile});
+
+
+$megamenu-height-bp-desktop: 1080px;
+$megamenu-height-bp-mobile:  570px;
 
 // Colors
 $dark-blue:       #144c95;

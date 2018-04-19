@@ -12227,6 +12227,17 @@
 		"opt": 1,
 		"q": 100
 		},
+	"\/source\/img\/chapter-lobby\/temporary.jpg": {
+		"ft": 16384,
+		"iS": 202820,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/build\/img\/chapter-lobby\/temporary.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
 	"\/source\/img\/hhr-logo.png": {
 		"ft": 32768,
 		"iS": 4719,
@@ -12315,6 +12326,27 @@
 		"ft": 2048,
 		"oA": 1,
 		"oAP": "\/build\/includes\/_html-head.html",
+		"oF": 0
+		},
+	"\/source\/includes\/case-studies-modals\/_buena-park.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/build\/includes\/case-studies-modals\/_buena-park.html",
+		"oF": 0
+		},
+	"\/source\/includes\/case-studies-modals\/_des-moines.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/build\/includes\/case-studies-modals\/_des-moines.html",
+		"oF": 0
+		},
+	"\/source\/includes\/case-studies-modals\/_santa-fe.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/build\/includes\/case-studies-modals\/_santa-fe.html",
 		"oF": 0
 		},
 	"\/source\/includes\/defined-zones-modals\/_arrival.kit": {
@@ -12654,19 +12686,6 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/source\/styles\/components\/_header.scss": {
-		"aP": 1,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/build\/styles\/components\/_header.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
 	"\/source\/styles\/components\/_lists.scss": {
 		"aP": 1,
 		"bl": 0,
@@ -12728,19 +12747,6 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/build\/styles\/components\/_title-blocks.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/source\/styles\/components\/_wayfinding.scss": {
-		"aP": 1,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/build\/styles\/components\/_wayfinding.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -12919,7 +12925,7 @@
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-punDog",
 	"iconImageWasSetByUser": 1,
-	"lastBuiltDate": 545762752
+	"lastBuiltDate": 545866725
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,

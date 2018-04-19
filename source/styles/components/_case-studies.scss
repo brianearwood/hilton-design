@@ -1,6 +1,6 @@
 .chapter__case-studies {
   .fancy-heading {
-    margin-bottom: 3rem;
+    margin-bottom: 1rem;
     
     &__heading-text {
       left: 80px;
@@ -26,7 +26,15 @@
   .case-study-screen-bg {
     background-color: rgba(0,0,0,0.9);
   }
+  .image-swap-block {
+    display: none;
+  }
   
+  div[class^='lobby-case-studies-'] {
+    .empty-block {
+
+    }
+  }
   .lobby-case-studies-des-moines {
     .row-bg-image {
       background: url("/img/chapter-lobby/case-studies/01_DesMoines/01_Cover.jpg");
@@ -50,5 +58,32 @@
       background-size: cover;
     }
   }
-}
+  
+  @media only screen and (max-width: $bp-medium - 1) {
+    .section__content {
+      padding: 5vw 9vw 5vw 4vw;
+    }
+  }
 
+  @media only screen and (max-width: $bp-medium - 1) {
+    .case-study-screen-bg {
+      background-color: $white;
+      
+    }
+
+    .case-study-content-area {
+      p {
+        color: $middle-gray;
+      }
+    }
+    .fancy-heading {
+      position: static;
+    }
+    .image-swap-block {
+      display: block;
+    }
+    .section__content {
+      padding: 8vw 8vw 20vw 8vw;
+    }
+  }
+}

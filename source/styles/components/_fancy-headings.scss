@@ -8,6 +8,13 @@
     background: transparent;
   }
 
+  &.fancy-heading-semi-transparent-dark {
+    background: rgba(0, 0, 0, 0.7);
+  }
+  &.fancy-heading-semi-transparent-light {
+    background: rgba(255, 255, 255, 0.8);
+  }
+
   &__heading-text {
     @extend %heading-text;
     color: $dark-blue;
@@ -32,21 +39,6 @@
     margin: 5rem 0rem 3rem -5rem;
   }
   
-  // Customize Heading Blocks
-  .chapter__executive-lounge & {
-    &__heading-text {
-      // position: absolute;
-      // left: 90px;
-      // top: 50px;
-    }
-  }
-  .chapter__case-studies & {
-    &__heading-text {
-      // position: absolute;
-      // left: 90px;
-      // top: 50px;
-    }
-  }
   
   @media only screen and (max-width: $bp-xlarge - 1) {
     padding: 1rem 2rem 2rem 2rem;
@@ -71,7 +63,63 @@
     }
     
     &__fancy-text {
-      font-size: 7vw;
+      font-size: 18vw;
+    }
+    &__heading-text {
+      font-size: 4vw;
+    }
+  }
+
+
+
+
+
+  &.fancy-heading-hero {
+    position: absolute;
+    width: 56vw;
+    top: 13vw;
+    border-color: $middle-blue;
+    .fancy-heading__fancy-text {
+      color: $white;
+      font-size: 8vw;
+      margin-bottom: 1vw;
+    }
+    .fancy-heading__heading-text {
+      color: $middle-blue;
+      font-size: 2vw;
+
+    }
+    
+    @media only screen and (max-width: $bp-medium - 1) {
+      width: auto;
+      position: absolute;
+      margin: 0;
+      border: 5px solid #129bdb;
+      border-right: none;
+      right: 0;
+      left: 7vw;
+
+      + .image-wrapper {
+        width: 90vw;
+      }
+
+      .fancy-heading__fancy-text {
+        color: $middle-blue;
+        font-size: 15vw;
+
+      }
+      .fancy-heading__heading-text {
+        color: $dark-blue;
+        font-size: 4vw;
+      }
+    }
+    @media only screen and (max-width: $bp-small - 1) {
+      position: static;
+      background: #ffffff;
+      border: 5px solid #129bdb;
+      + .image-wrapper {
+        width: 100vw;
+      }
     }
   }
 }
