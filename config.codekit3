@@ -11490,28 +11490,6 @@
 		"opt": 1,
 		"q": 100
 		},
-	"\/source\/img\/chapter-lobby\/lobby-the-new-hilton-lobby.jpg": {
-		"ft": 16384,
-		"iS": 135429,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/build\/img\/chapter-lobby\/lobby-the-new-hilton-lobby.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 100
-		},
-	"\/source\/img\/chapter-lobby\/lobby-the-new-hilton-lobby@2x.jpg": {
-		"ft": 16384,
-		"iS": 417085,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/build\/img\/chapter-lobby\/lobby-the-new-hilton-lobby@2x.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 100
-		},
 	"\/source\/img\/chapter-lobby\/lobby-toc-hero.jpg": {
 		"ft": 16384,
 		"iS": 54422,
