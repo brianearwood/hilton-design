@@ -11017,171 +11017,6 @@
 		"opt": 1,
 		"q": 100
 		},
-	"\/source\/img\/chapter-lobby\/case-studies\/02-BuenaPark\/01_1640x790.png": {
-		"ft": 32768,
-		"iS": 457657,
-		"oA": 0,
-		"oAP": "\/build\/img\/chapter-lobby\/case-studies\/02-BuenaPark\/01_1640x790.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
-	"\/source\/img\/chapter-lobby\/case-studies\/02-BuenaPark\/Cover.jpg": {
-		"ft": 16384,
-		"iS": 371498,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/build\/img\/chapter-lobby\/case-studies\/02-BuenaPark\/Cover.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 100
-		},
-	"\/source\/img\/chapter-lobby\/case-studies\/02-BuenaPark\/ENTRY STAIRS.jpg": {
-		"ft": 16384,
-		"iS": 240450,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/build\/img\/chapter-lobby\/case-studies\/02-BuenaPark\/ENTRY STAIRS.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 100
-		},
-	"\/source\/img\/chapter-lobby\/case-studies\/02-BuenaPark\/ENTRY.jpg": {
-		"ft": 16384,
-		"iS": 178159,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/build\/img\/chapter-lobby\/case-studies\/02-BuenaPark\/ENTRY.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 100
-		},
-	"\/source\/img\/chapter-lobby\/case-studies\/02-BuenaPark\/FRONT DESK1@0,5x.jpg": {
-		"ft": 16384,
-		"iS": 68508,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/build\/img\/chapter-lobby\/case-studies\/02-BuenaPark\/FRONT DESK1@0,5x.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 100
-		},
-	"\/source\/img\/chapter-lobby\/case-studies\/02-BuenaPark\/KITCHEN1@0,5x.jpg": {
-		"ft": 16384,
-		"iS": 44917,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/build\/img\/chapter-lobby\/case-studies\/02-BuenaPark\/KITCHEN1@0,5x.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 100
-		},
-	"\/source\/img\/chapter-lobby\/case-studies\/02-BuenaPark\/KITCHEN2.jpg": {
-		"ft": 16384,
-		"iS": 251810,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/build\/img\/chapter-lobby\/case-studies\/02-BuenaPark\/KITCHEN2.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 100
-		},
-	"\/source\/img\/chapter-lobby\/case-studies\/02-BuenaPark\/KITCHEN2@0,5x.jpg": {
-		"ft": 16384,
-		"iS": 74047,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/build\/img\/chapter-lobby\/case-studies\/02-BuenaPark\/KITCHEN2@0,5x.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 100
-		},
-	"\/source\/img\/chapter-lobby\/case-studies\/02-BuenaPark\/LOBBY1@0,5x.jpg": {
-		"ft": 16384,
-		"iS": 66376,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/build\/img\/chapter-lobby\/case-studies\/02-BuenaPark\/LOBBY1@0,5x.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 100
-		},
-	"\/source\/img\/chapter-lobby\/case-studies\/02-BuenaPark\/LOUNGE1.jpg": {
-		"ft": 16384,
-		"iS": 292452,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/build\/img\/chapter-lobby\/case-studies\/02-BuenaPark\/LOUNGE1.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 100
-		},
-	"\/source\/img\/chapter-lobby\/case-studies\/02-BuenaPark\/LOUNGE1@0,5x.jpg": {
-		"ft": 16384,
-		"iS": 88617,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/build\/img\/chapter-lobby\/case-studies\/02-BuenaPark\/LOUNGE1@0,5x.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 100
-		},
-	"\/source\/img\/chapter-lobby\/case-studies\/02-BuenaPark\/Restroom@0,75x.jpg": {
-		"ft": 16384,
-		"iS": 153362,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/build\/img\/chapter-lobby\/case-studies\/02-BuenaPark\/Restroom@0,75x.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 100
-		},
-	"\/source\/img\/chapter-lobby\/case-studies\/02-BuenaPark\/TECH1@0,5x.jpg": {
-		"ft": 16384,
-		"iS": 62934,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/build\/img\/chapter-lobby\/case-studies\/02-BuenaPark\/TECH1@0,5x.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 100
-		},
-	"\/source\/img\/chapter-lobby\/case-studies\/02-BuenaPark\/TECH2.jpg": {
-		"ft": 16384,
-		"iS": 232313,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/build\/img\/chapter-lobby\/case-studies\/02-BuenaPark\/TECH2.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 100
-		},
-	"\/source\/img\/chapter-lobby\/case-studies\/02-BuenaPark\/TECH2@0,5x.jpg": {
-		"ft": 16384,
-		"iS": 69536,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/build\/img\/chapter-lobby\/case-studies\/02-BuenaPark\/TECH2@0,5x.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 100
-		},
 	"\/source\/img\/chapter-lobby\/case-studies\/02_BuenaPark\/01_1640x790.png": {
 		"ft": 32768,
 		"iS": 457657,
@@ -11248,6 +11083,17 @@
 		"opt": 1,
 		"q": 100
 		},
+	"\/source\/img\/chapter-lobby\/case-studies\/02_BuenaPark\/Cover.jpg": {
+		"ft": 16384,
+		"iS": 322218,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/build\/img\/chapter-lobby\/case-studies\/02_BuenaPark\/Cover.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
 	"\/source\/img\/chapter-lobby\/case-studies\/02_BuenaPark\/Cover@0,5x.jpg": {
 		"ft": 16384,
 		"iS": 112980,
@@ -11259,12 +11105,34 @@
 		"opt": 1,
 		"q": 100
 		},
-	"\/source\/img\/chapter-lobby\/case-studies\/02_BuenaPark\/ENTRY STAIRS@0,5x.jpg": {
+	"\/source\/img\/chapter-lobby\/case-studies\/02_BuenaPark\/ENTRY-STAIRS.jpg": {
 		"ft": 16384,
-		"iS": 68009,
+		"iS": 209255,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/build\/img\/chapter-lobby\/case-studies\/02_BuenaPark\/ENTRY STAIRS@0,5x.jpg",
+		"oAP": "\/build\/img\/chapter-lobby\/case-studies\/02_BuenaPark\/ENTRY-STAIRS.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/source\/img\/chapter-lobby\/case-studies\/02_BuenaPark\/ENTRY-STAIRS@0,5x.jpg": {
+		"ft": 16384,
+		"iS": 58845,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/build\/img\/chapter-lobby\/case-studies\/02_BuenaPark\/ENTRY-STAIRS@0,5x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/source\/img\/chapter-lobby\/case-studies\/02_BuenaPark\/ENTRY.jpg": {
+		"ft": 16384,
+		"iS": 156726,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/build\/img\/chapter-lobby\/case-studies\/02_BuenaPark\/ENTRY.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
@@ -11281,34 +11149,45 @@
 		"opt": 1,
 		"q": 100
 		},
-	"\/source\/img\/chapter-lobby\/case-studies\/02_BuenaPark\/FRONT DESK1.jpg": {
+	"\/source\/img\/chapter-lobby\/case-studies\/02_BuenaPark\/FRONT-DESK1.jpg": {
 		"ft": 16384,
-		"iS": 255105,
+		"iS": 221623,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/build\/img\/chapter-lobby\/case-studies\/02_BuenaPark\/FRONT DESK1.jpg",
+		"oAP": "\/build\/img\/chapter-lobby\/case-studies\/02_BuenaPark\/FRONT-DESK1.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
-	"\/source\/img\/chapter-lobby\/case-studies\/02_BuenaPark\/FRONT DESK2.jpg": {
+	"\/source\/img\/chapter-lobby\/case-studies\/02_BuenaPark\/FRONT-DESK1@0,5x.jpg": {
 		"ft": 16384,
-		"iS": 211914,
+		"iS": 59499,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/build\/img\/chapter-lobby\/case-studies\/02_BuenaPark\/FRONT DESK2.jpg",
+		"oAP": "\/build\/img\/chapter-lobby\/case-studies\/02_BuenaPark\/FRONT-DESK1@0,5x.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
-	"\/source\/img\/chapter-lobby\/case-studies\/02_BuenaPark\/FRONT DESK2@0,5x.jpg": {
+	"\/source\/img\/chapter-lobby\/case-studies\/02_BuenaPark\/FRONT-DESK2.jpg": {
 		"ft": 16384,
-		"iS": 59089,
+		"iS": 185331,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/build\/img\/chapter-lobby\/case-studies\/02_BuenaPark\/FRONT DESK2@0,5x.jpg",
+		"oAP": "\/build\/img\/chapter-lobby\/case-studies\/02_BuenaPark\/FRONT-DESK2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/source\/img\/chapter-lobby\/case-studies\/02_BuenaPark\/FRONT-DESK2@0,5x.jpg": {
+		"ft": 16384,
+		"iS": 51392,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/build\/img\/chapter-lobby\/case-studies\/02_BuenaPark\/FRONT-DESK2@0,5x.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
@@ -11325,12 +11204,78 @@
 		"opt": 1,
 		"q": 100
 		},
+	"\/source\/img\/chapter-lobby\/case-studies\/02_BuenaPark\/KITCHEN1@0,5x.jpg": {
+		"ft": 16384,
+		"iS": 38402,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/build\/img\/chapter-lobby\/case-studies\/02_BuenaPark\/KITCHEN1@0,5x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/source\/img\/chapter-lobby\/case-studies\/02_BuenaPark\/KITCHEN2.jpg": {
+		"ft": 16384,
+		"iS": 216517,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/build\/img\/chapter-lobby\/case-studies\/02_BuenaPark\/KITCHEN2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/source\/img\/chapter-lobby\/case-studies\/02_BuenaPark\/KITCHEN2@0,5x.jpg": {
+		"ft": 16384,
+		"iS": 63496,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/build\/img\/chapter-lobby\/case-studies\/02_BuenaPark\/KITCHEN2@0,5x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
 	"\/source\/img\/chapter-lobby\/case-studies\/02_BuenaPark\/LOBBY1.jpg": {
 		"ft": 16384,
 		"iS": 237706,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/build\/img\/chapter-lobby\/case-studies\/02_BuenaPark\/LOBBY1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/source\/img\/chapter-lobby\/case-studies\/02_BuenaPark\/LOBBY1@0,5x.jpg": {
+		"ft": 16384,
+		"iS": 57176,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/build\/img\/chapter-lobby\/case-studies\/02_BuenaPark\/LOBBY1@0,5x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/source\/img\/chapter-lobby\/case-studies\/02_BuenaPark\/LOUNGE1.jpg": {
+		"ft": 16384,
+		"iS": 252372,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/build\/img\/chapter-lobby\/case-studies\/02_BuenaPark\/LOUNGE1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/source\/img\/chapter-lobby\/case-studies\/02_BuenaPark\/LOUNGE1@0,5x.jpg": {
+		"ft": 16384,
+		"iS": 75816,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/build\/img\/chapter-lobby\/case-studies\/02_BuenaPark\/LOUNGE1@0,5x.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
@@ -11391,12 +11336,100 @@
 		"opt": 1,
 		"q": 100
 		},
+	"\/source\/img\/chapter-lobby\/case-studies\/02_BuenaPark\/Restroom@0,75x.jpg": {
+		"ft": 16384,
+		"iS": 132783,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/build\/img\/chapter-lobby\/case-studies\/02_BuenaPark\/Restroom@0,75x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
 	"\/source\/img\/chapter-lobby\/case-studies\/02_BuenaPark\/TECH1.jpg": {
 		"ft": 16384,
 		"iS": 211650,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/build\/img\/chapter-lobby\/case-studies\/02_BuenaPark\/TECH1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/source\/img\/chapter-lobby\/case-studies\/02_BuenaPark\/TECH1@0,5x.jpg": {
+		"ft": 16384,
+		"iS": 54595,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/build\/img\/chapter-lobby\/case-studies\/02_BuenaPark\/TECH1@0,5x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/source\/img\/chapter-lobby\/case-studies\/02_BuenaPark\/TECH2.jpg": {
+		"ft": 16384,
+		"iS": 202820,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/build\/img\/chapter-lobby\/case-studies\/02_BuenaPark\/TECH2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/source\/img\/chapter-lobby\/case-studies\/02_BuenaPark\/TECH2@0,5x.jpg": {
+		"ft": 16384,
+		"iS": 60240,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/build\/img\/chapter-lobby\/case-studies\/02_BuenaPark\/TECH2@0,5x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/source\/img\/chapter-lobby\/case-studies\/03_SantaFe\/Bar.jpg": {
+		"ft": 16384,
+		"iS": 216311,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/build\/img\/chapter-lobby\/case-studies\/03_SantaFe\/Bar.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/source\/img\/chapter-lobby\/case-studies\/03_SantaFe\/Bar@0,5x.jpg": {
+		"ft": 16384,
+		"iS": 69716,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/build\/img\/chapter-lobby\/case-studies\/03_SantaFe\/Bar@0,5x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/source\/img\/chapter-lobby\/case-studies\/03_SantaFe\/Business-Centre.jpg": {
+		"ft": 16384,
+		"iS": 218293,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/build\/img\/chapter-lobby\/case-studies\/03_SantaFe\/Business-Centre.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/source\/img\/chapter-lobby\/case-studies\/03_SantaFe\/Business-Centre@0,5x.jpg": {
+		"ft": 16384,
+		"iS": 69481,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/build\/img\/chapter-lobby\/case-studies\/03_SantaFe\/Business-Centre@0,5x.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
@@ -11424,6 +11457,50 @@
 		"opt": 1,
 		"q": 100
 		},
+	"\/source\/img\/chapter-lobby\/case-studies\/03_SantaFe\/Lobby-1640x790.jpg": {
+		"ft": 16384,
+		"iS": 324001,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/build\/img\/chapter-lobby\/case-studies\/03_SantaFe\/Lobby-1640x790.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/source\/img\/chapter-lobby\/case-studies\/03_SantaFe\/Lobby-1640x790@0,5x.jpg": {
+		"ft": 16384,
+		"iS": 91758,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/build\/img\/chapter-lobby\/case-studies\/03_SantaFe\/Lobby-1640x790@0,5x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/source\/img\/chapter-lobby\/case-studies\/03_SantaFe\/Lobby-Lounge.jpg": {
+		"ft": 16384,
+		"iS": 266692,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/build\/img\/chapter-lobby\/case-studies\/03_SantaFe\/Lobby-Lounge.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/source\/img\/chapter-lobby\/case-studies\/03_SantaFe\/Lobby-Lounge@0,5x.jpg": {
+		"ft": 16384,
+		"iS": 73290,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/build\/img\/chapter-lobby\/case-studies\/03_SantaFe\/Lobby-Lounge@0,5x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
 	"\/source\/img\/chapter-lobby\/case-studies\/03_SantaFe\/Lobby.jpg": {
 		"ft": 16384,
 		"iS": 418451,
@@ -11441,6 +11518,28 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/build\/img\/chapter-lobby\/case-studies\/03_SantaFe\/Lobby@0,5x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/source\/img\/chapter-lobby\/case-studies\/03_SantaFe\/Restaurant.jpg": {
+		"ft": 16384,
+		"iS": 269837,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/build\/img\/chapter-lobby\/case-studies\/03_SantaFe\/Restaurant.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/source\/img\/chapter-lobby\/case-studies\/03_SantaFe\/Restaurant@0,5x.jpg": {
+		"ft": 16384,
+		"iS": 79830,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/build\/img\/chapter-lobby\/case-studies\/03_SantaFe\/Restaurant@0,5x.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
@@ -12531,6 +12630,13 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"\/source\/pages\/lobby\/case-studies\/buena-park.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"oA": 0,
+		"oAP": "\/build\/pages\/lobby\/case-studies\/buena-park.html",
+		"oF": 0
+		},
 	"\/source\/pages\/lobby\/case-studies\/des-moines.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -12543,6 +12649,13 @@
 		"ft": 2048,
 		"oA": 0,
 		"oAP": "\/build\/pages\/lobby\/case-studies\/index.html",
+		"oF": 0
+		},
+	"\/source\/pages\/lobby\/case-studies\/santa-fe.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"oA": 0,
+		"oAP": "\/build\/pages\/lobby\/case-studies\/santa-fe.html",
 		"oF": 0
 		},
 	"\/source\/pages\/lobby\/defined-zones\/arrival.kit": {
@@ -12982,7 +13095,7 @@
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-punDog",
 	"iconImageWasSetByUser": 1,
-	"lastBuiltDate": 545929220
+	"lastBuiltDate": 545933637
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
