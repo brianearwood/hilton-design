@@ -115,7 +115,7 @@
       transition: max-height 0.3s $ease-out-cubic;
 
       &:first-child {
-        margin-bottom: map-get($spacers, 5);
+        // margin-bottom: map-get($spacers, 5);
       }
 
       @media only screen and (max-width: $bp-large) and (max-height: $megamenu-height-bp-mobile) {
@@ -125,10 +125,10 @@
         }
       }
 
-      @media only screen and (max-width: $bp-large) and (max-height: $megamenu-height-bp-desktop) {
+      @media only screen and (min-width: $bp-small) and (max-height: $megamenu-height-bp-desktop) {
         margin-bottom: 0rem;
         &:first-child {
-          margin-bottom: 0rem;
+          margin-bottom: 2rem;
         }
         a {
           padding: 0.3rem;
@@ -147,7 +147,7 @@
 
     &__link {
       a {
-        padding: 1vw;
+        padding: 0.5rem;
         display: inline-block;
         position: relative;
         font-size: 0.8rem;
@@ -176,11 +176,12 @@
         }
         @media only screen and (max-width: $bp-medium - 1) {
           font-size: 1.9vw;
-          padding: 2.5vw;
+          padding: 1vw;
         }
         @media only screen and (max-width: $bp-small - 1) {
           display: block;
           font-size: 0.8rem;
+          padding: 2vw;
         }
 
         @media only screen and (max-height: $megamenu-height-bp-desktop - 200px) {
@@ -189,12 +190,12 @@
       }
     }
     &__heading a {
-
+      font-weight: $font-weight-heavy;
       @media only screen and (max-width: $bp-small - 1) {
         font-size: 1rem;
         font-weight: $font-weight-bold;
         padding-left: 0px;
-      }      
+      }
     }
 
     
