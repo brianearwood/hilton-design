@@ -323,6 +323,21 @@
       width: 100%;
       height: 100%;
     }
+
+    &.image-slide {
+      img {
+        width: auto;
+        transition: all 15s ease;
+        position: absolute;
+        left: 0;
+      }
+
+      &.active {
+        img {
+          left: -480px;
+        }
+      }
+    }
   }
 
 
@@ -370,6 +385,8 @@
         width: 100%;
         height: 100%;
       }
+
+     
     }
     .overlay-wrapper {
       position: absolute;
