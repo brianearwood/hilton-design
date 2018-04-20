@@ -5,8 +5,6 @@
 // @codekit-prepend quiet "../../node_modules/fullpage.js/dist/jquery.fullpage.js";
 // @codekit-prepend quiet "../../bower_components/bootstrap/js/dist/util.js";
 // @codekit-prepend quiet "../../bower_components/bootstrap/js/dist/modal.js";
-
-
 // @codekit-prepend quiet "./_plugins.js";
 
 (function($) {
@@ -19,8 +17,6 @@
       this.fullpage();
       this.modals();
       // this.pjax();
-      // this.smartscroll();
-      this.initListeners();
       this.resizeModals();
     },
 
@@ -54,10 +50,8 @@
         }        
       });
 
-
       // mobile expandable menu
       var mql = window.matchMedia('(max-width: 576px)');
-      
       function screenTest(e) {
         if (e.matches) {
           /* the viewport is 576 pixels wide or 400 px tall or less */
@@ -73,10 +67,8 @@
           $(".megamenu__heading").off("click");
         }
       }
-
       mql.addListener(screenTest);
       screenTest(mql);
-
     },
 
     search: function () {
@@ -110,7 +102,6 @@
         bigSectionsDestination: 'top',
         fitToSection: true,
         afterResponsive:  function(isResponsive){
-          // $.fn.fullpage.destroy('all');
           if (isResponsive) {
             $.fn.fullpage.setAutoScrolling(false);
             $('.global__header').appendTo( $('.global:first-child') );
@@ -122,15 +113,6 @@
           
         }
       });
-
-      $(document)
-        .on('pjax:start', function() {
-          console.log("pjax loading!");
-          // $.fn.fullpage.destroy('all');
-        })
-        .on('pjax:end',   function() {
-          console.log("pjax ended!");
-        })
     },
 
     ofi: function () {
@@ -141,25 +123,9 @@
       $(document).pjax('[data-pjax] a, a[data-pjax]', '#pjax-container', {
         fragment: '.fragment'
       });
-
       // $('#pjax-container')
       //   .on('pjax:start', function() { $('#loading').show() })
       //   .on('pjax:end',   function() { $('#loading').hide() })
-      // $('#pjax-container')
-      //   .on('mousedown', function () {
-
-      //   })
-      //   .on('pjax:start', function() {
-      //     console.log("pjax loading!");
-      //     $.fn.fullpage.destroy('all');
-      //   })
-      //   .on('pjax:end',   function() {
-      //     console.log("pjax ended!");
-      //   })
-    },
-
-    smartscroll: function () {
-      // var lethargy = new Lethargy();
     },
 
     modals: function () {
@@ -264,17 +230,6 @@
         $(".hilton-modal .modal-body:visible").height( image_height );
         $(".hilton-modal .modal-descriptions:visible").height( image_height );
       }
-    },
-
-    initListeners: function () {
-      // $(document).on('ready pjax:start', function(event) {
-      //   // $.fn.fullpage.destroy();
-      // })
-      // $(document).on('ready pjax:end', function(event) {
-      //   // $(event.target).ofi();
-      //   $(event.target).fullpage();
-      //   $.fn.fullpage.reBuild();
-      // })
     }
   }
 

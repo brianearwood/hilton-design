@@ -115,7 +115,7 @@
       transition: max-height 0.3s $ease-out-cubic;
 
       &:first-child {
-        // margin-bottom: map-get($spacers, 5);
+        margin-bottom: 2rem;
       }
 
       @media only screen and (max-width: $bp-large) and (max-height: $megamenu-height-bp-mobile) {
@@ -137,6 +137,9 @@
 
       @media only screen and (max-width: $bp-small) {
         margin-bottom: 0rem;
+        &:first-child {
+          margin-bottom: 0rem;
+        }
       }
 
       &.collapsed {

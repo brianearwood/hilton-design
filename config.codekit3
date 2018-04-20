@@ -11457,6 +11457,16 @@
 		"opt": 1,
 		"q": 100
 		},
+	"\/source\/img\/chapter-lobby\/lobby-defined-zones-01.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/build\/img\/chapter-lobby\/lobby-defined-zones-01.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/source\/img\/chapter-lobby\/lobby-executive-summary-01@2x.jpg": {
 		"ft": 16384,
 		"iS": 211627,
@@ -12378,7 +12388,7 @@
 	"\/source\/includes\/case-studies-modals\/_santa-fe.kit": {
 		"cB": 0,
 		"ft": 2048,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/build\/includes\/case-studies-modals\/_santa-fe.html",
 		"oF": 0
 		},
@@ -12972,7 +12982,7 @@
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-punDog",
 	"iconImageWasSetByUser": 1,
-	"lastBuiltDate": 545866725
+	"lastBuiltDate": 545929220
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
