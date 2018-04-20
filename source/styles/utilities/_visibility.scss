@@ -8,7 +8,7 @@
     clip: rect(1px, 1px, 1px, 1px);
 }
 .no-display {
-	display: none;
+	display: none !important;
 }
 
 .overflow-hidden-imp {

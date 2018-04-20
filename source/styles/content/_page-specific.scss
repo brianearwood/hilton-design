@@ -29,3 +29,96 @@
 }
 
 
+.modal-page {
+  .heading {
+    padding-top: 7vw;
+    padding-bottom: 3vw;
+    text-align: center;
+    h1 {
+      
+    }
+    h3 {
+      font-size: 1rem;
+      color: #bbb; 
+    }
+    .letter {
+      margin: 0;
+      position: relative;
+      bottom: 4px;
+      display: inline-block;
+      background: #129bdb;
+      color: #ffffff;
+      font-size: 1.2rem;
+      font-weight: 200;
+      border-radius: 100%;
+      width: 2rem;
+      height: 2rem;
+      line-height: 1.7;
+      text-align: center;
+    }
+
+    @media only screen and (max-width: $bp-medium - 1) {
+      padding-top: 6rem;
+    }
+    @media only screen and (max-width: $bp-small - 1) {
+      padding-top: 1rem;
+    }
+  }
+  .image-wrapper {
+    height: auto;
+  }
+  
+  .btn {
+    display: block;
+    margin: 0.5rem 2rem;
+    &:last-child {
+      margin-bottom: 2rem;
+    }
+  }
+  // Case Studies
+  .fancy-heading-nav {
+    display: block;
+    margin: auto 6vw;
+    margin-bottom: 2rem;
+    width: auto;
+
+    &.active {
+      opacity: 0.2;
+      border-color: $middle-gray;
+      .fancy-heading__fancy-text {
+        color: $middle-gray;
+      }
+      .fancy-heading__heading-text {
+        color: $middle-gray;
+      }
+    }
+  }
+  
+  
+  @media only screen and (min-width: $bp-xlarge) {
+    .section__content {
+      padding: 2vw;
+    }
+  }
+  @media only screen and (max-width: $bp-xlarge - 1) {
+    .section__content {
+      padding: 2vw;
+    }
+  }
+  @media only screen and (max-width: $bp-large - 1) {
+    .section__content {
+      padding: 4vw;
+    }
+  }
+  @media only screen and (max-width: $bp-medium - 1) {
+    .section__content {
+      padding: 4vw;
+    }
+  }
+  @media only screen and (max-width: $bp-small - 1) {
+    .section__content {
+      padding: 8vw;
+    }
+  }
+
+}

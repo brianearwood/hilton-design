@@ -1,4 +1,4 @@
-.lobby-defined-zones-01 {
+.lobby-defined-zones-01, .modal-page {
 
   .zone {
     position: absolute;
@@ -64,13 +64,28 @@
       }
       
       &.active {
-        
+        a {
+          background: #1d9ad9;
+          color: white;
+          border: 1px solid #1d9ad9;
+        }
+      }
+      &.active {
+        a {
+          background: #f0f0f0;
+          color: lighten($middle-gray, 20%);
+          border: 1px solid lighten($middle-gray, 40%);
+        }
       }
     }
     .zone-nav-01 {
       a:before {
         content: "A";
         background: $middle-blue;
+      }
+      &.active a:before {
+        background: $white;
+        color: lighten($middle-gray, 20%);
       }
     }
     .zone-nav-02 {

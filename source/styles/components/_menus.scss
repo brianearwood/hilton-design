@@ -47,9 +47,6 @@
       text-decoration: none;
       font-weight: $font-weight-light;
     }
-    .megamenu__heading a {
-      font-weight: $font-weight-bold;
-    }
 
     &.active {
       left: 0;
@@ -68,7 +65,10 @@
       transform: rotate(45deg);
       position: absolute;
       top: -0.5rem;
-      left: 1.7rem;
+      left: $header-dropdown-arrow-spacing-mobile;
+      @media only screen and (min-width: $bp-small) {
+        left: $header-dropdown-arrow-spacing-desktop;
+      }
     }
 
 
@@ -80,13 +80,13 @@
         border-right: none;
       }
 
-      @media only screen and (max-width: $bp-xlarge) {
+      @media only screen and (max-width: $bp-xlarge - 1) {
         &.col-lg-3 {
           padding: 2vw 2vw;
           border-bottom: 1px solid #24a8e9;
         }
       }
-      @media only screen and (max-width: $bp-large) {
+      @media only screen and (max-width: $bp-large - 1) {
         &.col-md-6 {
           padding: 1rem;
           border-bottom: 1px solid #23a8e9;
@@ -95,14 +95,14 @@
           border-right: none;
         }
       }
-      @media only screen and (max-width: $bp-small) {
+      @media only screen and (max-width: $bp-small - 1) {
         &.col-xs-12 {
           padding: 0;
           border-bottom: none;
           border-right: none;
         }
       }
-      @media only screen and (max-height: $megamenu-height-bp-desktop) {
+      @media only screen and (max-height: $megamenu-height-bp-desktop - 1) {
         padding: 2vw;
       }
     }
@@ -140,7 +140,7 @@
       }
 
       &.collapsed {
-        max-height: 30px;
+        max-height: 40px;
       }
     }
 
@@ -150,6 +150,9 @@
         padding: 1vw;
         display: inline-block;
         position: relative;
+        font-size: 0.8rem;
+        font-weight: 300;
+
         &:after {
           content: "";
           position: absolute;
@@ -168,21 +171,30 @@
             opacity: 1.0;
           }
         }
-        @media only screen and (max-width: $bp-large) {
+        @media only screen and (max-width: $bp-large - 1) {
           font-size: 1.6vw;
         }
-        @media only screen and (max-width: $bp-medium) {
+        @media only screen and (max-width: $bp-medium - 1) {
           font-size: 1.9vw;
+          padding: 2.5vw;
         }
-        @media only screen and (max-width: $bp-small) {
+        @media only screen and (max-width: $bp-small - 1) {
           display: block;
-          font-size: 1rem;
+          font-size: 0.8rem;
         }
 
         @media only screen and (max-height: $megamenu-height-bp-desktop - 200px) {
-          padding: 1vw;
+          
         }
       }
+    }
+    &__heading a {
+
+      @media only screen and (max-width: $bp-small - 1) {
+        font-size: 1rem;
+        font-weight: $font-weight-bold;
+        padding-left: 0px;
+      }      
     }
 
     

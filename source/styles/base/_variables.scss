@@ -22,6 +22,10 @@ $content-area-height-mobile: calc(100vh - #{$header-footer-height-mobile});
 $megamenu-height-bp-desktop: 1080px;
 $megamenu-height-bp-mobile:  570px;
 
+
+$header-dropdown-arrow-spacing-mobile: 2.7rem;
+$header-dropdown-arrow-spacing-desktop: 1.8rem;
+
 // Colors
 $dark-blue:       #144c95;
 $middle-blue:     #129bdb;

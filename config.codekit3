@@ -11490,6 +11490,28 @@
 		"opt": 1,
 		"q": 100
 		},
+	"\/source\/img\/chapter-lobby\/lobby-the-new-hilton-lobby.jpg": {
+		"ft": 16384,
+		"iS": 117674,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/build\/img\/chapter-lobby\/lobby-the-new-hilton-lobby.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/source\/img\/chapter-lobby\/lobby-the-new-hilton-lobby@2x.jpg": {
+		"ft": 16384,
+		"iS": 391675,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/build\/img\/chapter-lobby\/lobby-the-new-hilton-lobby@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
 	"\/source\/img\/chapter-lobby\/lobby-toc-hero.jpg": {
 		"ft": 16384,
 		"iS": 54422,
@@ -11567,6 +11589,17 @@
 		"opt": 1,
 		"q": 100
 		},
+	"\/source\/img\/chapter-lobby\/modal-defined-zones\/01_Arrival\/01_Purpose@2x.jpg": {
+		"ft": 16384,
+		"iS": 77438,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/build\/img\/chapter-lobby\/modal-defined-zones\/01_Arrival\/01_Purpose@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
 	"\/source\/img\/chapter-lobby\/modal-defined-zones\/01_Arrival\/02_Host.jpg": {
 		"ft": 16384,
 		"iS": 99265,
@@ -11606,6 +11639,17 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/build\/img\/chapter-lobby\/modal-defined-zones\/01_Arrival\/03_Architectural@0,5x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/source\/img\/chapter-lobby\/modal-defined-zones\/01_Arrival\/03_Architectural@2x.jpg": {
+		"ft": 16384,
+		"iS": 120490,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/build\/img\/chapter-lobby\/modal-defined-zones\/01_Arrival\/03_Architectural@2x.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
@@ -11958,6 +12002,17 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/build\/img\/chapter-lobby\/modal-defined-zones\/04_Lounge\/04_Furnishing@0,5x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/source\/img\/chapter-lobby\/modal-defined-zones\/04_Lounge\/04_Furnishing@2x.jpg": {
+		"ft": 16384,
+		"iS": 216102,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/build\/img\/chapter-lobby\/modal-defined-zones\/04_Lounge\/04_Furnishing@2x.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
@@ -12323,7 +12378,7 @@
 	"\/source\/includes\/case-studies-modals\/_santa-fe.kit": {
 		"cB": 0,
 		"ft": 2048,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/build\/includes\/case-studies-modals\/_santa-fe.html",
 		"oF": 0
 		},
@@ -12466,11 +12521,25 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"\/source\/pages\/lobby\/case-studies\/des-moines.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"oA": 0,
+		"oAP": "\/build\/pages\/lobby\/case-studies\/des-moines.html",
+		"oF": 0
+		},
 	"\/source\/pages\/lobby\/case-studies\/index.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"oA": 0,
 		"oAP": "\/build\/pages\/lobby\/case-studies\/index.html",
+		"oF": 0
+		},
+	"\/source\/pages\/lobby\/defined-zones\/arrival.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"oA": 0,
+		"oAP": "\/build\/pages\/lobby\/defined-zones\/arrival.html",
 		"oF": 0
 		},
 	"\/source\/pages\/lobby\/defined-zones\/index.kit": {

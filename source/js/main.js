@@ -57,57 +57,25 @@
 
       // mobile expandable menu
       var mql = window.matchMedia('(max-width: 576px)');
-      // var short_mql = window.matchMedia('(max-height: 400px)');
-
-      var screenResults = {
-        'skinny': false,
-        'short':  false
-      }
       
       function screenTest(e) {
         if (e.matches) {
           /* the viewport is 576 pixels wide or 400 px tall or less */
-          console.log("skinny");
           $(".megamenu__chapter").addClass('collapsed');
           $(".megamenu__heading").on("click", function (event) {
             event.preventDefault();
             $('.megamenu__chapter').each(function() { $(this).addClass('collapsed'); })
             $(this).parent().removeClass("collapsed");
           });
-          screenResults['skinny'] = true;
         } else {
           /* the viewport is more than than 576 pixels wide or 400 tall */
-          console.log("fat");
           $(".megamenu__chapter").removeClass('collapsed');
           $(".megamenu__heading").off("click");
-          screenResults['skinny'] = false;
         }
       }
-      // function shortTest(e) {
-      //   if ( e.matches && screenResults['skinny'] ) {
-      //     /* the viewport is 400 px tall or less */
-      //     console.log("short");
-      //     $(".megamenu__chapter").addClass('collapsed');
-      //     $(".megamenu__heading").on("click", function (event) {
-      //       event.preventDefault();
-      //       $('.megamenu__chapter').each(function() { $(this).addClass('collapsed'); })
-      //       $(this).parent().removeClass("collapsed");
-      //     });
-
-      //   } else {
-      //     /* the viewport is more than than 576 pixels wide or 400 tall */
-      //     console.log("tall");
-      //     $(".megamenu__chapter").removeClass('collapsed');
-      //     $(".megamenu__heading").off("click");
-      //   }
-      // }
 
       mql.addListener(screenTest);
-      // short_mql.addListener(shortTest);
-
       screenTest(mql);
-      // shortTest(short_mql);
-
 
     },
 
@@ -197,7 +165,34 @@
     modals: function () {
       // Type 1 Modal (Defined Zones)
 
-      // capture event from Bootstrap Modal js 
+      // media query for determining if a modal should open or if 
+      // we shouldgo to a new content page
+      var mql = window.matchMedia('(max-width: 768px)');
+      function screenTest(_mql, clickEvent) {
+        if (_mql.matches) {
+          /* the viewport is narrow */
+          // remove the data attribs for BS Modals to work
+          // Defined 
+          $('.modal-link').each( function (index, elem) {
+            $(this).removeAttr('data-target');
+            $(this).removeAttr('data-toggle');
+          });
+        } else {
+          /* the viewport is wider */
+          // add them back from the data-backup attr on each link
+          $('.modal-link').each( function (index, elem) {
+            var backup = $(this).data('backup');
+            $(this).attr('data-target', backup);
+            $(this).attr('data-toggle', 'modal');
+          });
+        }
+      }
+      mql.addListener(screenTest);
+      screenTest(mql, event);
+
+
+
+      // capture events from Bootstrap Modal js 
       $(document).on('shown.bs.modal', function (e) {
         HH.resizeModals();
         $.fn.fullpage.setAutoScrolling(false);
@@ -208,9 +203,9 @@
         $('body').removeClass('overflow-hidden-imp');
       })
 
-      // $(document).on('click', '[data-toggle="modal"]', function (event) {
-        
-      // });
+
+
+
 
       $(".modal-nav a").on('click', function (event) {
         event.preventDefault();

@@ -114,7 +114,11 @@
       a {
         text-align: left;
         padding: 2rem;
-        background-color: #073773;
+        background-color: #001b3c;
+
+        &.active {
+          background: #09264c;
+        }
       }
     }
   }
@@ -152,9 +156,9 @@
 }
 
 .block {
-  padding-bottom: 1vw;
+  padding-bottom: 1rem;
 
   &__intro {
-    padding-top: 2vw;
+    padding-top: 2rem;
   }
 }
