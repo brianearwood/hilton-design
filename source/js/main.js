@@ -157,7 +157,6 @@
       screenTest(mql, event);
 
 
-
       // capture events from Bootstrap Modal js 
       $(document).on('shown.bs.modal', function (e) {
         HH.resizeModals();
@@ -168,9 +167,6 @@
         $.fn.fullpage.setAutoScrolling(true);
         $('body').removeClass('overflow-hidden-imp');
       })
-
-
-
 
 
       $(".modal-nav a").on('click', function (event) {
@@ -197,13 +193,11 @@
         HH.resizeModals();
       });
 
+
       // Type 2 Modal (Case Studies)
       var image_list = $('.modal.type-2 .image');
       var prev_btn = $('.modal.type-2 .modal-nav-arrow-prev');
       var next_btn = $('.modal.type-2 .modal-nav-arrow-next');
-
-
-
       prev_btn.on('click', function (event) {
         // console.log($('.modal.type-2 .image.active').prev().length)
         if ( $('.modal.type-2 .image.active').prev().length != 0 ) {
@@ -220,6 +214,56 @@
         else {
           $('.modal.type-2 .image.active').removeClass('active').siblings().first().addClass('active');
         }
+      });
+
+
+      // Defined Zones hover effect buttons
+      // rolling over the buttons:
+      $('.defined-zones-nav .modal-link').on('mouseover', function () {
+        var link_id = $(this).data('link');
+        $('.zone').each( function (index, elem) {
+          if ( $(elem).data('zone') == link_id ) {
+            $('.zone').removeClass('active');
+            $(elem).addClass('active');
+          }
+        });
+
+        $('.zone-circle').each( function (index, elem) {
+          $(elem).removeClass('active');
+        });
+        $('.zone-circle').each( function (index, elem) {
+          if ( $(elem).data('svg') == link_id ) {
+            $(elem).addClass('active');
+          }
+        });
+      });
+
+      // rolling over the svg circles:
+      $('.zone-circle').on('mouseover', function () {
+        var link_id = $(this).data('svg');
+
+        $('.zone-circle').each( function (index, elem) {
+          $(elem).removeClass('active');
+        });
+        $('.zone-circle').each( function (index, elem) {
+          if ( $(elem).data('svg') == link_id ) {
+            $(elem).addClass('active');
+          }
+        });
+
+        $('.zone').each( function (index, elem) {
+          if ( $(elem).data('zone') == link_id ) {
+            $('.zone').removeClass('active');
+            $(elem).addClass('active');
+          }
+        });
+
+        $('.defined-zones-nav .modal-link').each( function (index, elem) {
+          if ( $(elem).data('link') == link_id ) {
+            $('.defined-zones-nav .modal-link').removeClass('active');
+            $(elem).addClass('active');
+          }
+        });
       });
     },
 

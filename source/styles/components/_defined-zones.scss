@@ -20,9 +20,29 @@
     }
   }
 
+
+  .modal-link {
+    &.active {
+      border: 3px solid $middle-blue;
+    }
+  }
   .map-img-container {
     width: 90%;
     display: inline-block;
+    position: relative;
+  }
+
+  #defined-zones-svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    .zone-circle {
+      fill-opacity: 0.2;
+      &.active {
+        fill-opacity: 1.0;
+      }
+    }
   }
 
   .defined-zones-nav {
