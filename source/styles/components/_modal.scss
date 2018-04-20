@@ -371,6 +371,18 @@
         height: 100%;
       }
     }
+    .overlay-wrapper {
+      position: absolute;
+      z-index: 20;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+
+      .svg-tooltip {
+        display: none;
+    }
+    }
     .modal-nav-arrows {
       svg {
         margin-bottom: -4px;

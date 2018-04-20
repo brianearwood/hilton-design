@@ -190,6 +190,8 @@
           }
         });
 
+        
+
         HH.resizeModals();
       });
 
@@ -217,6 +219,10 @@
       });
 
 
+      $("svg .svg-showtip").on("click", function(event){
+        
+        $("#" + event.currentTarget.id.replace("plus","tooltip")).fadeToggle();
+        });
       // Defined Zones hover effect buttons
       // rolling over the buttons:
       $('.defined-zones-nav .modal-link').on('mouseover', function () {
