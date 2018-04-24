@@ -245,33 +245,33 @@
       padding: 0;
     }
   }
-  .description-wrap {
-    position: relative;
-    &:before {
-      content: "";
-      width: 100%;
-      height: 4vh;
-      display: block;
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      z-index: 100;
-      background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%);
-    }
-    &:after {
-      content: "";
-      width: 100%;
-      height: 4vh;
-      display: block;
-      position: absolute;
-      bottom: 0;
-      left: 0;
-      right: 0;
-      z-index: 100;
-      background: linear-gradient(to bottom, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 100%); 
-    }
-  }
+  // .description-wrap {
+  //   position: relative;
+  //   &:before {
+  //     content: "";
+  //     width: 100%;
+  //     height: 4vh;
+  //     display: block;
+  //     position: absolute;
+  //     top: 0;
+  //     left: 0;
+  //     right: 0;
+  //     z-index: 100;
+  //     background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%);
+  //   }
+  //   &:after {
+  //     content: "";
+  //     width: 100%;
+  //     height: 4vh;
+  //     display: block;
+  //     position: absolute;
+  //     bottom: 0;
+  //     left: 0;
+  //     right: 0;
+  //     z-index: 100;
+  //     background: linear-gradient(to bottom, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 100%); 
+  //   }
+  // }
   .modal-descriptions {
     position: relative;
     padding: 0;
@@ -286,8 +286,8 @@
     opacity: 0.0;
     transition: 0.3s $ease-out-cubic;
     transition-property: opacity;
-    font-size: 1.3vw;
-    font-weight: 200;
+    font-size: 1rem;
+    font-weight: 400;
     padding: 4vw 2vw 2vw 2vw;
 
     &.active {

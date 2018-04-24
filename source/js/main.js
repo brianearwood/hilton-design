@@ -168,7 +168,6 @@
         $('body').removeClass('overflow-hidden-imp');
       })
 
-
       $(".modal-nav a").on('click', function (event) {
         event.preventDefault();
         var link = $(this).data('modal_link');
@@ -189,8 +188,6 @@
             $(this).addClass('active');
           }
         });
-
-        
 
         HH.resizeModals();
       });
@@ -220,12 +217,17 @@
 
 
       $("svg .svg-showtip").on("click", function(event){
-        
         $("#" + event.currentTarget.id.replace("plus","tooltip")).fadeToggle();
-        });
+      });
+
+
       // Defined Zones hover effect buttons
       // rolling over the buttons:
-      $('.defined-zones-nav .modal-link').on('mouseover', function () {
+      $('.zone-map .modal-link').on('mouseover', function () {
+        // add .hovered state to button so we keep the hover style once we mouseout
+        $(this).parent().siblings().children().removeClass('active');
+        $(this).addClass('active');
+
         var link_id = $(this).data('link');
         $('.zone').each( function (index, elem) {
           if ( $(elem).data('zone') == link_id ) {
@@ -264,9 +266,9 @@
           }
         });
 
-        $('.defined-zones-nav .modal-link').each( function (index, elem) {
+        $('.zone-map .modal-link').each( function (index, elem) {
           if ( $(elem).data('link') == link_id ) {
-            $('.defined-zones-nav .modal-link').removeClass('active');
+            $('.zone-map .modal-link').removeClass('active');
             $(elem).addClass('active');
           }
         });

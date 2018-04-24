@@ -17,6 +17,13 @@
 	],
 "creatorBuild": "26680",
 "files": {
+	"\/.gitignore": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/build\/.gitignore",
+		"oF": 0
+		},
 	"\/bower.json": {
 		"ft": 524288,
 		"oA": 1,
@@ -10915,6 +10922,27 @@
 		"oAP": "\/build\/img\/.gitignore",
 		"oF": 0
 		},
+	"\/source\/img\/chapter-lobby\/case-studies\/01_DesMoines\/01_1640x790.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/build\/img\/chapter-lobby\/case-studies\/01_DesMoines\/01_1640x790.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/source\/img\/chapter-lobby\/case-studies\/01_DesMoines\/01_1640x790.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/build\/img\/chapter-lobby\/case-studies\/01_DesMoines\/01_1640x790.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/source\/img\/chapter-lobby\/case-studies\/01_DesMoines\/01_Cover.jpg": {
 		"ft": 16384,
 		"iS": 341845,
@@ -10980,6 +11008,16 @@
 		"opt": 1,
 		"q": 100
 		},
+	"\/source\/img\/chapter-lobby\/case-studies\/01_DesMoines\/05_1640x790.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/build\/img\/chapter-lobby\/case-studies\/01_DesMoines\/05_1640x790.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/source\/img\/chapter-lobby\/case-studies\/01_DesMoines\/06_1640x790.jpg": {
 		"ft": 16384,
 		"iS": 215829,
@@ -11001,6 +11039,16 @@
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
+		},
+	"\/source\/img\/chapter-lobby\/case-studies\/01_DesMoines\/07_1640x790.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/build\/img\/chapter-lobby\/case-studies\/01_DesMoines\/07_1640x790.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"\/source\/img\/chapter-lobby\/case-studies\/01_DesMoines\/08_1640x790.jpg": {
 		"ft": 16384,
@@ -11024,6 +11072,16 @@
 		"opt": 1,
 		"q": 100
 		},
+	"\/source\/img\/chapter-lobby\/case-studies\/01_DesMoines\/09_1640x790.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/build\/img\/chapter-lobby\/case-studies\/01_DesMoines\/09_1640x790.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/source\/img\/chapter-lobby\/case-studies\/01_DesMoines\/10_1640x790.jpg": {
 		"ft": 16384,
 		"iS": 296322,
@@ -11034,6 +11092,163 @@
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
+		},
+	"\/source\/img\/chapter-lobby\/case-studies\/01_DesMoines\/10_1640x790.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/build\/img\/chapter-lobby\/case-studies\/01_DesMoines\/10_1640x790.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/source\/img\/chapter-lobby\/case-studies\/01_DesMoines\/11_1640x790.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/build\/img\/chapter-lobby\/case-studies\/01_DesMoines\/11_1640x790.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/source\/img\/chapter-lobby\/case-studies\/01_DesMoines\/11_1640x790.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/build\/img\/chapter-lobby\/case-studies\/01_DesMoines\/11_1640x790.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/source\/img\/chapter-lobby\/case-studies\/01_DesMoines\/12_1640x790.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/build\/img\/chapter-lobby\/case-studies\/01_DesMoines\/12_1640x790.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/source\/img\/chapter-lobby\/case-studies\/01_DesMoines\/12_1640x790.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/build\/img\/chapter-lobby\/case-studies\/01_DesMoines\/12_1640x790.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/source\/img\/chapter-lobby\/case-studies\/01_DesMoines\/13_1640x790.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/build\/img\/chapter-lobby\/case-studies\/01_DesMoines\/13_1640x790.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/source\/img\/chapter-lobby\/case-studies\/01_DesMoines\/13_1640x790.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/build\/img\/chapter-lobby\/case-studies\/01_DesMoines\/13_1640x790.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/source\/img\/chapter-lobby\/case-studies\/01_DesMoines\/14_1640x790.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/build\/img\/chapter-lobby\/case-studies\/01_DesMoines\/14_1640x790.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/source\/img\/chapter-lobby\/case-studies\/01_DesMoines\/14_1640x790.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/build\/img\/chapter-lobby\/case-studies\/01_DesMoines\/14_1640x790.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/source\/img\/chapter-lobby\/case-studies\/01_DesMoines\/15_1640x790.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/build\/img\/chapter-lobby\/case-studies\/01_DesMoines\/15_1640x790.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/source\/img\/chapter-lobby\/case-studies\/01_DesMoines\/15_1640x790.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/build\/img\/chapter-lobby\/case-studies\/01_DesMoines\/15_1640x790.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/source\/img\/chapter-lobby\/case-studies\/01_DesMoines\/16_1640x790.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/build\/img\/chapter-lobby\/case-studies\/01_DesMoines\/16_1640x790.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/source\/img\/chapter-lobby\/case-studies\/01_DesMoines\/16_1640x790.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/build\/img\/chapter-lobby\/case-studies\/01_DesMoines\/16_1640x790.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/source\/img\/chapter-lobby\/case-studies\/01_DesMoines\/17_1640x790.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/build\/img\/chapter-lobby\/case-studies\/01_DesMoines\/17_1640x790.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/source\/img\/chapter-lobby\/case-studies\/01_DesMoines\/17_1640x790.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/build\/img\/chapter-lobby\/case-studies\/01_DesMoines\/17_1640x790.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"\/source\/img\/chapter-lobby\/case-studies\/02_BuenaPark\/01_1640x790.png": {
 		"ft": 32768,
@@ -11619,7 +11834,7 @@
 		},
 	"\/source\/img\/chapter-lobby\/lobby-the-new-hilton-lobby.jpg": {
 		"ft": 16384,
-		"iS": 135429,
+		"iS": 117674,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/build\/img\/chapter-lobby\/lobby-the-new-hilton-lobby.jpg",
@@ -11630,7 +11845,7 @@
 		},
 	"\/source\/img\/chapter-lobby\/lobby-the-new-hilton-lobby@2x.jpg": {
 		"ft": 16384,
-		"iS": 417085,
+		"iS": 391675,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/build\/img\/chapter-lobby\/lobby-the-new-hilton-lobby@2x.jpg",
@@ -12935,6 +13150,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/build\/styles\/components\/_title-blocks.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/source\/styles\/components\/_zone-map.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/build\/styles\/components\/_zone-map.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
