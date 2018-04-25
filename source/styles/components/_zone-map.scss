@@ -22,7 +22,17 @@
 
 
   .modal-link {
-    
+    .letter {
+      margin: 0rem 0.5rem 0rem 0rem;
+      display: inline-block;
+      background: $middle-blue;
+      color: $white;
+      border-radius: 100%;
+      width: 25px;
+      height: 25px;
+      line-height: 1.6;
+      text-align: center;
+    }
   }
   .map-img-container {
     width: 90%;
@@ -51,6 +61,8 @@
       fill-opacity: 0.1;
       stroke: rgba(#000000, 0.0);
       stroke-width: 2px;
+      cursor: pointer;
+      
       
       &.active {
         fill-opacity: 0.5;
@@ -108,19 +120,6 @@
           border-color: #fff;
         }
       }
-      a:before {
-        content: "";
-        margin: 0rem 0.5rem 0rem 0rem;
-        display: inline-block;
-        background: $middle-blue;
-        color: $white;
-        border-radius: 100%;
-        width: 25px;
-        height: 25px;
-        line-height: 1.6;
-        text-align: center;
-      }
-      
       &.active {
         a {
           background: #1d9ad9;
@@ -137,43 +136,38 @@
       }
     }
     .zone-nav-01 {
-      a:before {
-        content: "A";
+      .letter {
         background: $middle-blue;
-      }
-      &.active a:before {
-        background: $white;
-        color: lighten($middle-gray, 20%);
       }
     }
     .zone-nav-02 {
-      a:before {
-        content: "B";
+      .letter {
         background: $dark-blue;
       }
     }
     .zone-nav-03 {
-      a:before {
-        content: "C";
+      .letter {
         background: $black;
       }
     }
     .zone-nav-04 {
-      a:before {
-        content: "D";
+      .letter {
         background: $middle-gray;
       }
     }
     .zone-nav-05 {
-      a:before {
-        content: "E";
+      .letter {
         background: $purple;
       }
     }
     .zone-nav-06 {
-      a:before {
-        content: "F";
+      .letter {
         background: $pink;
+      }
+    }
+    .zone-nav-07 {
+      .letter {
+        background: $bright-purple;
       }
     }
   }

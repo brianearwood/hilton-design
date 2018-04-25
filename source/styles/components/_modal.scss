@@ -113,8 +113,6 @@
   -ms-flex: 1 1 auto;
   flex: 1 1 auto;
   padding: 0rem;
-  // overflow: hidden;
-  // min-height: auto;
 }
 
 .modal-footer {
@@ -155,6 +153,10 @@
 
 // Custom Styles
 .hilton-modal {
+  &.resizing {
+    visibility: hidden;
+    display: block;
+  }
   .modal-content {
     width: auto;
 
@@ -166,11 +168,19 @@
     // padding-bottom: 38.8%;
     height: 100%;
     overflow: hidden;
-    max-height: 790px;
+    max-height: 745px;
+    width: 90vw;
+  }
+  .modal-sidebar {
+
   }
   .modal-controls {
-    padding: 4vw 10px 0 3vw;
+    // padding: 4vw 10px 0 3vw;
+      padding: 3vw 0 2vw 0;
     
+    li {
+      display: inline-block;
+    }
     a {
       background: $white;
       display: block;
@@ -220,7 +230,9 @@
     color: #333;
     font-weight: 200;
     line-height: 1;
-    margin-bottom: 1vw;
+    // margin-bottom: 1vw;
+    margin-bottom: 0;
+    padding: 3vw 2vw 2.3vw 3vw;
     font-size: 2.5vw;
   }
   .letter {
@@ -275,7 +287,7 @@
   .modal-descriptions {
     position: relative;
     padding: 0;
-    overflow-y: scroll;
+    overflow-y: auto;
     width: 100%;
   }
   .modal-description {
@@ -288,7 +300,8 @@
     transition-property: opacity;
     font-size: 1rem;
     font-weight: 400;
-    padding: 4vw 2vw 2vw 2vw;
+    // padding: 4vw 2vw 2vw 2vw;
+    padding: 0vw 3vw 3vw 3vw;
 
     &.active {
       opacity: 1.0;
@@ -300,7 +313,8 @@
     position: relative;
     overflow: hidden;
     width: 100%;
-    padding-bottom: 116.5%;
+    // padding-bottom: 116.5%;
+    padding-bottom: 57%;
     background: #fff;
     right: -1px;
   }
@@ -339,7 +353,41 @@
       }
     }
   }
+  
+  .inset-carousel {
+    .modal-controls {
+      padding: 0;
+      position: absolute;
+      height: 0;
+      top: 50%;
+      margin-top: -28px;
+      width: 100%;
+      ul {
+        padding: 0;
+        margin: 0;
+      }
+      a {
+        line-height: 0;
+      }
+    }
 
+    .slider-wrap {
+      position: relative;
+      width: 100%;
+      height: 100%;
+
+      img {
+        position: absolute;
+        opacity: 0.0;
+        transition: 0.3s $ease-out-cubic;
+        transition-property: opacity;
+      }
+
+      img.active {
+        opacity: 1.0;
+      }
+    }
+  }
 
 
 

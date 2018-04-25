@@ -22,8 +22,16 @@
 
 
   .modal-link {
-    &.active {
-      border: 3px solid $middle-blue;
+    .letter {
+      margin: 0rem 0.5rem 0rem 0rem;
+      display: inline-block;
+      background: $middle-blue;
+      color: $white;
+      border-radius: 100%;
+      width: 25px;
+      height: 25px;
+      line-height: 1.6;
+      text-align: center;
     }
   }
   .map-img-container {
@@ -70,18 +78,18 @@
           border-color: #fff;
         }
       }
-      a:before {
-        content: "";
-        margin: 0rem 0.5rem 0rem 0rem;
-        display: inline-block;
-        background: $middle-blue;
-        color: $white;
-        border-radius: 100%;
-        width: 25px;
-        height: 25px;
-        line-height: 1.6;
-        text-align: center;
-      }
+      // a:before {
+      //   content: "";
+      //   margin: 0rem 0.5rem 0rem 0rem;
+      //   display: inline-block;
+      //   background: $middle-blue;
+      //   color: $white;
+      //   border-radius: 100%;
+      //   width: 25px;
+      //   height: 25px;
+      //   line-height: 1.6;
+      //   text-align: center;
+      // }
       
       &.active {
         a {
@@ -99,18 +107,12 @@
       }
     }
     .zone-nav-01 {
-      a:before {
-        content: "A";
+      .letter {
         background: $middle-blue;
-      }
-      &.active a:before {
-        background: $white;
-        color: lighten($middle-gray, 20%);
       }
     }
     .zone-nav-02 {
-      a:before {
-        content: "B";
+      .letter {
         background: $dark-blue;
       }
     }
@@ -133,6 +135,12 @@
       }
     }
     .zone-nav-06 {
+      a:before {
+        content: "F";
+        background: $pink;
+      }
+    }
+    .zone-nav-07 {
       a:before {
         content: "F";
         background: $pink;

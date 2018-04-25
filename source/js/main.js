@@ -11,6 +11,7 @@
 
   var HH = {
     init: function () {
+      this.timer;
       this.ofi();
       this.megamenu();
       this.search();
@@ -22,9 +23,10 @@
 
     resize: function() {
         var self = this;
-        $(window).resize(function() {
-          self.resizeModals();
-        });
+        
+        // do something once after resize is complete
+        clearTimeout(HH.timer);
+        HH.timer = setTimeout(HH.doneResizing, 500);
 
         if( $('body').height() < $(window).height() ) {
           $('.page-nav').addClass('extended');
@@ -33,6 +35,10 @@
           $('.page-nav').removeClass('extended');
           $('body').css({'overflow': 'visible'});
         }
+    },
+
+    doneResizing: function () {
+      HH.resizeModals();
     },
 
     megamenu: function () {
@@ -134,7 +140,7 @@
       // media query for determining if a modal should open or if 
       // we shouldgo to a new content page
       var mql = window.matchMedia('(max-width: 768px)');
-      function screenTest(_mql, clickEvent) {
+      function screenTest(_mql) {
         if (_mql.matches) {
           /* the viewport is narrow */
           // remove the data attribs for BS Modals to work
@@ -154,12 +160,12 @@
         }
       }
       mql.addListener(screenTest);
-      screenTest(mql, event);
+      screenTest(mql);
 
 
       // capture events from Bootstrap Modal js 
       $(document).on('shown.bs.modal', function (e) {
-        HH.resizeModals();
+        $(".modal:visible .modal-nav a").first().trigger('click');
         $.fn.fullpage.setAutoScrolling(false);
         $('body').addClass('overflow-hidden-imp');
       });
@@ -188,8 +194,6 @@
             $(this).addClass('active');
           }
         });
-
-        HH.resizeModals();
       });
 
 
@@ -273,15 +277,65 @@
           }
         });
       });
+
+      // clicking the svg circles:
+      $('.zone-circle').on('click', function () {
+        var link_id = $(this).data('svg');
+        $('.zone-map .modal-link').each( function (index, elem) {
+          if ( $(elem).data('link') == link_id ) {
+            $(this).trigger('click');
+          }
+        });
+      });
+
+
+      // inset carousel
+      function start_inset_carousel () {
+        var carousel = $('.inset-carousel');
+        var images = $('.carousel-image');
+        var prev_btn = carousel.find('.modal-nav-arrow-prev');
+        var next_btn = carousel.find('.modal-nav-arrow-next');
+        prev_btn.on('click', function (event) {
+          var current_image = $('.carousel-image.active');
+          var prev_image = current_image.prev();
+          if ( prev_image.length != 0 ) {
+            current_image.removeClass('active');
+            prev_image.addClass('active');
+          } 
+          else {
+            current_image.removeClass('active').siblings().last().addClass('active');
+          }
+        });
+        next_btn.on('click', function (event) {
+          var current_image = $('.carousel-image.active');
+          var next_image = current_image.next();
+          if ( next_image.length != 0 ) {
+            current_image.removeClass('active');
+            next_image.addClass('active');
+          }
+          else {
+            current_image.removeClass('active').siblings().first().addClass('active');
+          }
+        });
+      }
+      start_inset_carousel();
+      
     },
 
-    resizeModals: function () {
-      if( $('body').hasClass("modal-open") ) {
-        var image_height = $(".image.active:visible").height();
-        console.log(image_height);
-        $(".hilton-modal .modal-body:visible").height( image_height );
-        $(".hilton-modal .modal-descriptions:visible").height( image_height );
-      }
+    resizeModals: function (modal) {
+      $('.hilton-modal').each( function (index, elem) {
+        var $_elem = $(this);
+        $_elem.addClass('resizing');
+
+        var nav_height = $_elem.find(".modal-nav").outerHeight();
+        var image_height = $_elem.find("img").first().height();
+        var modal_height = nav_height + image_height;
+
+        // console.log("Nav: " + nav_height + ", Image: " + image_height + ", Total: " + modal_height);
+        $_elem.find(".modal-body").height( modal_height );
+        $_elem.find(".modal-descriptions").height( image_height );
+        $_elem.removeClass('resizing');
+      });
     }
   }
 

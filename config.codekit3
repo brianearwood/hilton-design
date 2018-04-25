@@ -11789,6 +11789,17 @@
 		"opt": 1,
 		"q": 100
 		},
+	"\/source\/img\/chapter-lobby\/lobby-defined-zones-01.png": {
+		"ft": 32768,
+		"iS": 67536,
+		"oA": 0,
+		"oAP": "\/build\/img\/chapter-lobby\/lobby-defined-zones-01.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"\/source\/img\/chapter-lobby\/lobby-defined-zones-01.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -11909,694 +11920,931 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/source\/img\/chapter-lobby\/modal-defined-zones\/00_ZoneMap\/lobby-defined-zones-01-01.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/build\/img\/chapter-lobby\/modal-defined-zones\/00_ZoneMap\/lobby-defined-zones-01-01.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/source\/img\/chapter-lobby\/modal-defined-zones\/00_ZoneMap\/lobby-defined-zones-01.png": {
+		"ft": 32768,
+		"iS": 67536,
+		"oA": 0,
+		"oAP": "\/build\/img\/chapter-lobby\/modal-defined-zones\/00_ZoneMap\/lobby-defined-zones-01.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/source\/img\/chapter-lobby\/modal-defined-zones\/01_Arrival\/01_Purpose.jpg": {
 		"ft": 16384,
-		"iS": 69488,
+		"iS": 113013,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/build\/img\/chapter-lobby\/modal-defined-zones\/01_Arrival\/01_Purpose.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"\/source\/img\/chapter-lobby\/modal-defined-zones\/01_Arrival\/01_Purpose@0,5x.jpg": {
 		"ft": 16384,
-		"iS": 28589,
+		"iS": 45632,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/build\/img\/chapter-lobby\/modal-defined-zones\/01_Arrival\/01_Purpose@0,5x.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
-		"q": 100
-		},
-	"\/source\/img\/chapter-lobby\/modal-defined-zones\/01_Arrival\/01_Purpose@2x.jpg": {
-		"ft": 16384,
-		"iS": 77438,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/build\/img\/chapter-lobby\/modal-defined-zones\/01_Arrival\/01_Purpose@2x.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"\/source\/img\/chapter-lobby\/modal-defined-zones\/01_Arrival\/02_Host.jpg": {
 		"ft": 16384,
-		"iS": 99265,
+		"iS": 133446,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/build\/img\/chapter-lobby\/modal-defined-zones\/01_Arrival\/02_Host.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"\/source\/img\/chapter-lobby\/modal-defined-zones\/01_Arrival\/02_Host@0,5x.jpg": {
 		"ft": 16384,
-		"iS": 31670,
+		"iS": 42169,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/build\/img\/chapter-lobby\/modal-defined-zones\/01_Arrival\/02_Host@0,5x.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
-	"\/source\/img\/chapter-lobby\/modal-defined-zones\/01_Arrival\/03_Architectural.jpg": {
+	"\/source\/img\/chapter-lobby\/modal-defined-zones\/01_Arrival\/03_Architecture.jpg": {
 		"ft": 16384,
-		"iS": 99094,
+		"iS": 100525,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/build\/img\/chapter-lobby\/modal-defined-zones\/01_Arrival\/03_Architectural.jpg",
+		"oAP": "\/build\/img\/chapter-lobby\/modal-defined-zones\/01_Arrival\/03_Architecture.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
-	"\/source\/img\/chapter-lobby\/modal-defined-zones\/01_Arrival\/03_Architectural@0,5x.jpg": {
+	"\/source\/img\/chapter-lobby\/modal-defined-zones\/01_Arrival\/03_Architecture@0,5x.jpg": {
 		"ft": 16384,
-		"iS": 32150,
+		"iS": 34443,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/build\/img\/chapter-lobby\/modal-defined-zones\/01_Arrival\/03_Architectural@0,5x.jpg",
+		"oAP": "\/build\/img\/chapter-lobby\/modal-defined-zones\/01_Arrival\/03_Architecture@0,5x.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
-	"\/source\/img\/chapter-lobby\/modal-defined-zones\/01_Arrival\/03_Architectural@2x.jpg": {
+	"\/source\/img\/chapter-lobby\/modal-defined-zones\/01_Arrival\/04_Furnishings.jpg": {
 		"ft": 16384,
-		"iS": 120490,
+		"iS": 90403,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/build\/img\/chapter-lobby\/modal-defined-zones\/01_Arrival\/03_Architectural@2x.jpg",
+		"oAP": "\/build\/img\/chapter-lobby\/modal-defined-zones\/01_Arrival\/04_Furnishings.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
-	"\/source\/img\/chapter-lobby\/modal-defined-zones\/01_Arrival\/04_Furnish.jpg": {
+	"\/source\/img\/chapter-lobby\/modal-defined-zones\/01_Arrival\/04_Furnishings@0,5x.jpg": {
 		"ft": 16384,
-		"iS": 101715,
+		"iS": 34899,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/build\/img\/chapter-lobby\/modal-defined-zones\/01_Arrival\/04_Furnish.jpg",
+		"oAP": "\/build\/img\/chapter-lobby\/modal-defined-zones\/01_Arrival\/04_Furnishings@0,5x.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
-		"q": 100
-		},
-	"\/source\/img\/chapter-lobby\/modal-defined-zones\/01_Arrival\/04_Furnish@0,5x.jpg": {
-		"ft": 16384,
-		"iS": 31902,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/build\/img\/chapter-lobby\/modal-defined-zones\/01_Arrival\/04_Furnish@0,5x.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"\/source\/img\/chapter-lobby\/modal-defined-zones\/01_Arrival\/05_Style.jpg": {
 		"ft": 16384,
-		"iS": 83031,
+		"iS": 120663,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/build\/img\/chapter-lobby\/modal-defined-zones\/01_Arrival\/05_Style.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"\/source\/img\/chapter-lobby\/modal-defined-zones\/01_Arrival\/05_Style@0,5x.jpg": {
 		"ft": 16384,
-		"iS": 29838,
+		"iS": 43740,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/build\/img\/chapter-lobby\/modal-defined-zones\/01_Arrival\/05_Style@0,5x.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
-	"\/source\/img\/chapter-lobby\/modal-defined-zones\/02_RegistrationCheckIn\/01_Purpose.jpg": {
+	"\/source\/img\/chapter-lobby\/modal-defined-zones\/01_Arrival\/06_Design.jpg": {
 		"ft": 16384,
-		"iS": 100391,
+		"iS": 121663,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/build\/img\/chapter-lobby\/modal-defined-zones\/02_RegistrationCheckIn\/01_Purpose.jpg",
+		"oAP": "\/build\/img\/chapter-lobby\/modal-defined-zones\/01_Arrival\/06_Design.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/source\/img\/chapter-lobby\/modal-defined-zones\/01_Arrival\/06_Design@0,5x.jpg": {
+		"ft": 16384,
+		"iS": 39060,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/build\/img\/chapter-lobby\/modal-defined-zones\/01_Arrival\/06_Design@0,5x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/source\/img\/chapter-lobby\/modal-defined-zones\/02_Reception\/01_Purpose.jpg": {
+		"ft": 16384,
+		"iS": 173562,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/build\/img\/chapter-lobby\/modal-defined-zones\/02_Reception\/01_Purpose.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
-	"\/source\/img\/chapter-lobby\/modal-defined-zones\/02_RegistrationCheckIn\/01_Purpose@0,5x.jpg": {
+	"\/source\/img\/chapter-lobby\/modal-defined-zones\/02_Reception\/01_Purpose@0,5x.jpg": {
 		"ft": 16384,
-		"iS": 29848,
+		"iS": 37774,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/build\/img\/chapter-lobby\/modal-defined-zones\/02_RegistrationCheckIn\/01_Purpose@0,5x.jpg",
+		"oAP": "\/build\/img\/chapter-lobby\/modal-defined-zones\/02_Reception\/01_Purpose@0,5x.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
-	"\/source\/img\/chapter-lobby\/modal-defined-zones\/02_RegistrationCheckIn\/02_Host.jpg": {
+	"\/source\/img\/chapter-lobby\/modal-defined-zones\/02_Reception\/02_Host.jpg": {
 		"ft": 16384,
-		"iS": 122262,
+		"iS": 102322,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/build\/img\/chapter-lobby\/modal-defined-zones\/02_RegistrationCheckIn\/02_Host.jpg",
+		"oAP": "\/build\/img\/chapter-lobby\/modal-defined-zones\/02_Reception\/02_Host.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
-	"\/source\/img\/chapter-lobby\/modal-defined-zones\/02_RegistrationCheckIn\/02_Host@0,5x.jpg": {
+	"\/source\/img\/chapter-lobby\/modal-defined-zones\/02_Reception\/02_Host@0,5x.jpg": {
 		"ft": 16384,
-		"iS": 34343,
+		"iS": 33007,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/build\/img\/chapter-lobby\/modal-defined-zones\/02_RegistrationCheckIn\/02_Host@0,5x.jpg",
+		"oAP": "\/build\/img\/chapter-lobby\/modal-defined-zones\/02_Reception\/02_Host@0,5x.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
-	"\/source\/img\/chapter-lobby\/modal-defined-zones\/02_RegistrationCheckIn\/03_Architecture.jpg": {
+	"\/source\/img\/chapter-lobby\/modal-defined-zones\/02_Reception\/03_Architecture.jpg": {
 		"ft": 16384,
-		"iS": 74852,
+		"iS": 157040,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/build\/img\/chapter-lobby\/modal-defined-zones\/02_RegistrationCheckIn\/03_Architecture.jpg",
+		"oAP": "\/build\/img\/chapter-lobby\/modal-defined-zones\/02_Reception\/03_Architecture.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
-	"\/source\/img\/chapter-lobby\/modal-defined-zones\/02_RegistrationCheckIn\/03_Architecture@0,5x.jpg": {
+	"\/source\/img\/chapter-lobby\/modal-defined-zones\/02_Reception\/03_Architecture@0,5x.jpg": {
 		"ft": 16384,
-		"iS": 25386,
+		"iS": 47092,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/build\/img\/chapter-lobby\/modal-defined-zones\/02_RegistrationCheckIn\/03_Architecture@0,5x.jpg",
+		"oAP": "\/build\/img\/chapter-lobby\/modal-defined-zones\/02_Reception\/03_Architecture@0,5x.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
-	"\/source\/img\/chapter-lobby\/modal-defined-zones\/02_RegistrationCheckIn\/04_Furnishings.jpg": {
+	"\/source\/img\/chapter-lobby\/modal-defined-zones\/02_Reception\/04_Furnishings.jpg": {
 		"ft": 16384,
-		"iS": 126065,
+		"iS": 102485,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/build\/img\/chapter-lobby\/modal-defined-zones\/02_RegistrationCheckIn\/04_Furnishings.jpg",
+		"oAP": "\/build\/img\/chapter-lobby\/modal-defined-zones\/02_Reception\/04_Furnishings.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
-	"\/source\/img\/chapter-lobby\/modal-defined-zones\/02_RegistrationCheckIn\/04_Furnishings@0,5x.jpg": {
+	"\/source\/img\/chapter-lobby\/modal-defined-zones\/02_Reception\/04_Furnishings@0,5x.jpg": {
 		"ft": 16384,
-		"iS": 38170,
+		"iS": 35309,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/build\/img\/chapter-lobby\/modal-defined-zones\/02_RegistrationCheckIn\/04_Furnishings@0,5x.jpg",
+		"oAP": "\/build\/img\/chapter-lobby\/modal-defined-zones\/02_Reception\/04_Furnishings@0,5x.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
-	"\/source\/img\/chapter-lobby\/modal-defined-zones\/02_RegistrationCheckIn\/05_Style.jpg": {
+	"\/source\/img\/chapter-lobby\/modal-defined-zones\/02_Reception\/05_Style.jpg": {
 		"ft": 16384,
-		"iS": 61869,
+		"iS": 175545,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/build\/img\/chapter-lobby\/modal-defined-zones\/02_RegistrationCheckIn\/05_Style.jpg",
+		"oAP": "\/build\/img\/chapter-lobby\/modal-defined-zones\/02_Reception\/05_Style.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
-	"\/source\/img\/chapter-lobby\/modal-defined-zones\/02_RegistrationCheckIn\/05_Style@0,5x.jpg": {
+	"\/source\/img\/chapter-lobby\/modal-defined-zones\/02_Reception\/05_Style@0,5x.jpg": {
 		"ft": 16384,
-		"iS": 21049,
+		"iS": 52712,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/build\/img\/chapter-lobby\/modal-defined-zones\/02_RegistrationCheckIn\/05_Style@0,5x.jpg",
+		"oAP": "\/build\/img\/chapter-lobby\/modal-defined-zones\/02_Reception\/05_Style@0,5x.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
-	"\/source\/img\/chapter-lobby\/modal-defined-zones\/03_TechLounge\/01_Purpose.jpg": {
+	"\/source\/img\/chapter-lobby\/modal-defined-zones\/02_Reception\/06_Design.jpg": {
 		"ft": 16384,
-		"iS": 93269,
+		"iS": 162072,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/build\/img\/chapter-lobby\/modal-defined-zones\/03_TechLounge\/01_Purpose.jpg",
+		"oAP": "\/build\/img\/chapter-lobby\/modal-defined-zones\/02_Reception\/06_Design.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
-	"\/source\/img\/chapter-lobby\/modal-defined-zones\/03_TechLounge\/01_Purpose@0,5x.jpg": {
+	"\/source\/img\/chapter-lobby\/modal-defined-zones\/02_Reception\/06_Design@0,5x.jpg": {
 		"ft": 16384,
-		"iS": 30519,
+		"iS": 49511,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/build\/img\/chapter-lobby\/modal-defined-zones\/03_TechLounge\/01_Purpose@0,5x.jpg",
+		"oAP": "\/build\/img\/chapter-lobby\/modal-defined-zones\/02_Reception\/06_Design@0,5x.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
-	"\/source\/img\/chapter-lobby\/modal-defined-zones\/03_TechLounge\/02_Host.jpg": {
+	"\/source\/img\/chapter-lobby\/modal-defined-zones\/03_GatheringLounge\/01_Purpose.jpg": {
 		"ft": 16384,
-		"iS": 52454,
+		"iS": 157342,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/build\/img\/chapter-lobby\/modal-defined-zones\/03_TechLounge\/02_Host.jpg",
+		"oAP": "\/build\/img\/chapter-lobby\/modal-defined-zones\/03_GatheringLounge\/01_Purpose.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
-	"\/source\/img\/chapter-lobby\/modal-defined-zones\/03_TechLounge\/02_Host@0,5x.jpg": {
+	"\/source\/img\/chapter-lobby\/modal-defined-zones\/03_GatheringLounge\/01_Purpose@0,5x.jpg": {
 		"ft": 16384,
-		"iS": 18699,
+		"iS": 49588,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/build\/img\/chapter-lobby\/modal-defined-zones\/03_TechLounge\/02_Host@0,5x.jpg",
+		"oAP": "\/build\/img\/chapter-lobby\/modal-defined-zones\/03_GatheringLounge\/01_Purpose@0,5x.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
-	"\/source\/img\/chapter-lobby\/modal-defined-zones\/03_TechLounge\/03_Architecture.jpg": {
+	"\/source\/img\/chapter-lobby\/modal-defined-zones\/03_GatheringLounge\/02_Host.jpg": {
 		"ft": 16384,
-		"iS": 118236,
+		"iS": 125148,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/build\/img\/chapter-lobby\/modal-defined-zones\/03_TechLounge\/03_Architecture.jpg",
+		"oAP": "\/build\/img\/chapter-lobby\/modal-defined-zones\/03_GatheringLounge\/02_Host.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
-	"\/source\/img\/chapter-lobby\/modal-defined-zones\/03_TechLounge\/03_Architecture@0,5x.jpg": {
+	"\/source\/img\/chapter-lobby\/modal-defined-zones\/03_GatheringLounge\/02_Host@0,5x.jpg": {
 		"ft": 16384,
-		"iS": 38509,
+		"iS": 39154,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/build\/img\/chapter-lobby\/modal-defined-zones\/03_TechLounge\/03_Architecture@0,5x.jpg",
+		"oAP": "\/build\/img\/chapter-lobby\/modal-defined-zones\/03_GatheringLounge\/02_Host@0,5x.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
-	"\/source\/img\/chapter-lobby\/modal-defined-zones\/03_TechLounge\/04_Furnishing.jpg": {
+	"\/source\/img\/chapter-lobby\/modal-defined-zones\/03_GatheringLounge\/03_Architecure.jpg": {
 		"ft": 16384,
-		"iS": 44343,
+		"iS": 171341,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/build\/img\/chapter-lobby\/modal-defined-zones\/03_TechLounge\/04_Furnishing.jpg",
+		"oAP": "\/build\/img\/chapter-lobby\/modal-defined-zones\/03_GatheringLounge\/03_Architecure.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
-	"\/source\/img\/chapter-lobby\/modal-defined-zones\/03_TechLounge\/04_Furnishing@0,5x.jpg": {
+	"\/source\/img\/chapter-lobby\/modal-defined-zones\/03_GatheringLounge\/03_Architecure@0,5x.jpg": {
 		"ft": 16384,
-		"iS": 15713,
+		"iS": 52524,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/build\/img\/chapter-lobby\/modal-defined-zones\/03_TechLounge\/04_Furnishing@0,5x.jpg",
+		"oAP": "\/build\/img\/chapter-lobby\/modal-defined-zones\/03_GatheringLounge\/03_Architecure@0,5x.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
-	"\/source\/img\/chapter-lobby\/modal-defined-zones\/03_TechLounge\/05_Style.jpg": {
+	"\/source\/img\/chapter-lobby\/modal-defined-zones\/03_GatheringLounge\/04_Furnishings.jpg": {
 		"ft": 16384,
-		"iS": 74579,
+		"iS": 144822,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/build\/img\/chapter-lobby\/modal-defined-zones\/03_TechLounge\/05_Style.jpg",
+		"oAP": "\/build\/img\/chapter-lobby\/modal-defined-zones\/03_GatheringLounge\/04_Furnishings.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
-	"\/source\/img\/chapter-lobby\/modal-defined-zones\/03_TechLounge\/05_Style@0,5x.jpg": {
+	"\/source\/img\/chapter-lobby\/modal-defined-zones\/03_GatheringLounge\/04_Furnishings@0,5x.jpg": {
 		"ft": 16384,
-		"iS": 25054,
+		"iS": 45282,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/build\/img\/chapter-lobby\/modal-defined-zones\/03_TechLounge\/05_Style@0,5x.jpg",
+		"oAP": "\/build\/img\/chapter-lobby\/modal-defined-zones\/03_GatheringLounge\/04_Furnishings@0,5x.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
-	"\/source\/img\/chapter-lobby\/modal-defined-zones\/04_Lounge\/01_Purpose.jpg": {
+	"\/source\/img\/chapter-lobby\/modal-defined-zones\/03_GatheringLounge\/05_Style.jpg": {
 		"ft": 16384,
-		"iS": 101435,
+		"iS": 122992,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/build\/img\/chapter-lobby\/modal-defined-zones\/04_Lounge\/01_Purpose.jpg",
+		"oAP": "\/build\/img\/chapter-lobby\/modal-defined-zones\/03_GatheringLounge\/05_Style.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
-	"\/source\/img\/chapter-lobby\/modal-defined-zones\/04_Lounge\/01_Purpose@0,5x.jpg": {
+	"\/source\/img\/chapter-lobby\/modal-defined-zones\/03_GatheringLounge\/05_Style@0,5x.jpg": {
 		"ft": 16384,
-		"iS": 34090,
+		"iS": 41944,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/build\/img\/chapter-lobby\/modal-defined-zones\/04_Lounge\/01_Purpose@0,5x.jpg",
+		"oAP": "\/build\/img\/chapter-lobby\/modal-defined-zones\/03_GatheringLounge\/05_Style@0,5x.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
-	"\/source\/img\/chapter-lobby\/modal-defined-zones\/04_Lounge\/02_Host.jpg": {
+	"\/source\/img\/chapter-lobby\/modal-defined-zones\/03_GatheringLounge\/06_Design.jpg": {
 		"ft": 16384,
-		"iS": 115157,
+		"iS": 145407,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/build\/img\/chapter-lobby\/modal-defined-zones\/04_Lounge\/02_Host.jpg",
+		"oAP": "\/build\/img\/chapter-lobby\/modal-defined-zones\/03_GatheringLounge\/06_Design.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
-	"\/source\/img\/chapter-lobby\/modal-defined-zones\/04_Lounge\/02_Host@0,5x.jpg": {
+	"\/source\/img\/chapter-lobby\/modal-defined-zones\/03_GatheringLounge\/06_Design@0,5x.jpg": {
 		"ft": 16384,
-		"iS": 35942,
+		"iS": 53290,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/build\/img\/chapter-lobby\/modal-defined-zones\/04_Lounge\/02_Host@0,5x.jpg",
+		"oAP": "\/build\/img\/chapter-lobby\/modal-defined-zones\/03_GatheringLounge\/06_Design@0,5x.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
-	"\/source\/img\/chapter-lobby\/modal-defined-zones\/04_Lounge\/03_Architecure.jpg": {
+	"\/source\/img\/chapter-lobby\/modal-defined-zones\/03_GatheringLounge\/Thumbs.db": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/build\/img\/chapter-lobby\/modal-defined-zones\/03_GatheringLounge\/Thumbs.db",
+		"oF": 0
+		},
+	"\/source\/img\/chapter-lobby\/modal-defined-zones\/04_KineticLoungeBar\/01_Purpose.jpg": {
 		"ft": 16384,
-		"iS": 141891,
+		"iS": 123415,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/build\/img\/chapter-lobby\/modal-defined-zones\/04_Lounge\/03_Architecure.jpg",
+		"oAP": "\/build\/img\/chapter-lobby\/modal-defined-zones\/04_KineticLoungeBar\/01_Purpose.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
-	"\/source\/img\/chapter-lobby\/modal-defined-zones\/04_Lounge\/03_Architecure@0,5x.jpg": {
+	"\/source\/img\/chapter-lobby\/modal-defined-zones\/04_KineticLoungeBar\/01_Purpose@0,5x.jpg": {
 		"ft": 16384,
-		"iS": 43400,
+		"iS": 41098,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/build\/img\/chapter-lobby\/modal-defined-zones\/04_Lounge\/03_Architecure@0,5x.jpg",
+		"oAP": "\/build\/img\/chapter-lobby\/modal-defined-zones\/04_KineticLoungeBar\/01_Purpose@0,5x.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
-	"\/source\/img\/chapter-lobby\/modal-defined-zones\/04_Lounge\/04_Furnishing.jpg": {
+	"\/source\/img\/chapter-lobby\/modal-defined-zones\/04_KineticLoungeBar\/02_Host.jpg": {
 		"ft": 16384,
-		"iS": 96799,
+		"iS": 92650,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/build\/img\/chapter-lobby\/modal-defined-zones\/04_Lounge\/04_Furnishing.jpg",
+		"oAP": "\/build\/img\/chapter-lobby\/modal-defined-zones\/04_KineticLoungeBar\/02_Host.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
-	"\/source\/img\/chapter-lobby\/modal-defined-zones\/04_Lounge\/04_Furnishing@0,5x.jpg": {
+	"\/source\/img\/chapter-lobby\/modal-defined-zones\/04_KineticLoungeBar\/02_Host@0,5x.jpg": {
 		"ft": 16384,
-		"iS": 32653,
+		"iS": 29932,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/build\/img\/chapter-lobby\/modal-defined-zones\/04_Lounge\/04_Furnishing@0,5x.jpg",
+		"oAP": "\/build\/img\/chapter-lobby\/modal-defined-zones\/04_KineticLoungeBar\/02_Host@0,5x.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
-	"\/source\/img\/chapter-lobby\/modal-defined-zones\/04_Lounge\/04_Furnishing@2x.jpg": {
+	"\/source\/img\/chapter-lobby\/modal-defined-zones\/04_KineticLoungeBar\/04_Furnishing.jpg": {
 		"ft": 16384,
-		"iS": 216102,
+		"iS": 138474,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/build\/img\/chapter-lobby\/modal-defined-zones\/04_Lounge\/04_Furnishing@2x.jpg",
+		"oAP": "\/build\/img\/chapter-lobby\/modal-defined-zones\/04_KineticLoungeBar\/04_Furnishing.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
-	"\/source\/img\/chapter-lobby\/modal-defined-zones\/04_Lounge\/05_Style.jpg": {
+	"\/source\/img\/chapter-lobby\/modal-defined-zones\/04_KineticLoungeBar\/04_Furnishing@0,5x.jpg": {
 		"ft": 16384,
-		"iS": 86589,
+		"iS": 43295,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/build\/img\/chapter-lobby\/modal-defined-zones\/04_Lounge\/05_Style.jpg",
+		"oAP": "\/build\/img\/chapter-lobby\/modal-defined-zones\/04_KineticLoungeBar\/04_Furnishing@0,5x.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
-	"\/source\/img\/chapter-lobby\/modal-defined-zones\/04_Lounge\/05_Style@0,5x.jpg": {
+	"\/source\/img\/chapter-lobby\/modal-defined-zones\/04_KineticLoungeBar\/05_Style.jpg": {
 		"ft": 16384,
-		"iS": 27109,
+		"iS": 146333,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/build\/img\/chapter-lobby\/modal-defined-zones\/04_Lounge\/05_Style@0,5x.jpg",
+		"oAP": "\/build\/img\/chapter-lobby\/modal-defined-zones\/04_KineticLoungeBar\/05_Style.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
-	"\/source\/img\/chapter-lobby\/modal-defined-zones\/05_RestaurantBar\/01_Purpose.jpg": {
+	"\/source\/img\/chapter-lobby\/modal-defined-zones\/04_KineticLoungeBar\/05_Style@0,5x.jpg": {
 		"ft": 16384,
-		"iS": 72004,
+		"iS": 48742,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/build\/img\/chapter-lobby\/modal-defined-zones\/05_RestaurantBar\/01_Purpose.jpg",
+		"oAP": "\/build\/img\/chapter-lobby\/modal-defined-zones\/04_KineticLoungeBar\/05_Style@0,5x.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
-	"\/source\/img\/chapter-lobby\/modal-defined-zones\/05_RestaurantBar\/01_Purpose@0,5x.jpg": {
+	"\/source\/img\/chapter-lobby\/modal-defined-zones\/04_KineticLoungeBar\/06_A_Design_Night.jpg": {
 		"ft": 16384,
-		"iS": 24357,
+		"iS": 189297,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/build\/img\/chapter-lobby\/modal-defined-zones\/05_RestaurantBar\/01_Purpose@0,5x.jpg",
+		"oAP": "\/build\/img\/chapter-lobby\/modal-defined-zones\/04_KineticLoungeBar\/06_A_Design_Night.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
-	"\/source\/img\/chapter-lobby\/modal-defined-zones\/05_RestaurantBar\/02_Host.jpg": {
+	"\/source\/img\/chapter-lobby\/modal-defined-zones\/04_KineticLoungeBar\/06_A_Design_Night@0,5x.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 61132,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/build\/img\/chapter-lobby\/modal-defined-zones\/05_RestaurantBar\/02_Host.jpg",
+		"oAP": "\/build\/img\/chapter-lobby\/modal-defined-zones\/04_KineticLoungeBar\/06_A_Design_Night@0,5x.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
-	"\/source\/img\/chapter-lobby\/modal-defined-zones\/05_RestaurantBar\/02_Host@0,5x.jpg": {
+	"\/source\/img\/chapter-lobby\/modal-defined-zones\/04_KineticLoungeBar\/06_B_FloorPlan_KineticLoungeBar.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 68985,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/build\/img\/chapter-lobby\/modal-defined-zones\/05_RestaurantBar\/02_Host@0,5x.jpg",
+		"oAP": "\/build\/img\/chapter-lobby\/modal-defined-zones\/04_KineticLoungeBar\/06_B_FloorPlan_KineticLoungeBar.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
-	"\/source\/img\/chapter-lobby\/modal-defined-zones\/05_RestaurantBar\/03_Architecture.jpg": {
+	"\/source\/img\/chapter-lobby\/modal-defined-zones\/04_KineticLoungeBar\/06_B_FloorPlan_KineticLoungeBar@0,5x.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 27929,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/build\/img\/chapter-lobby\/modal-defined-zones\/05_RestaurantBar\/03_Architecture.jpg",
+		"oAP": "\/build\/img\/chapter-lobby\/modal-defined-zones\/04_KineticLoungeBar\/06_B_FloorPlan_KineticLoungeBar@0,5x.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
-	"\/source\/img\/chapter-lobby\/modal-defined-zones\/05_RestaurantBar\/03_Architecture@0,5x.jpg": {
+	"\/source\/img\/chapter-lobby\/modal-defined-zones\/05_Restaurant\/01_Purpose.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 135767,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/build\/img\/chapter-lobby\/modal-defined-zones\/05_RestaurantBar\/03_Architecture@0,5x.jpg",
+		"oAP": "\/build\/img\/chapter-lobby\/modal-defined-zones\/05_Restaurant\/01_Purpose.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
-	"\/source\/img\/chapter-lobby\/modal-defined-zones\/05_RestaurantBar\/04_Furnishing.jpg": {
+	"\/source\/img\/chapter-lobby\/modal-defined-zones\/05_Restaurant\/01_Purpose@0,5x.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 43348,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/build\/img\/chapter-lobby\/modal-defined-zones\/05_RestaurantBar\/04_Furnishing.jpg",
+		"oAP": "\/build\/img\/chapter-lobby\/modal-defined-zones\/05_Restaurant\/01_Purpose@0,5x.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
-	"\/source\/img\/chapter-lobby\/modal-defined-zones\/05_RestaurantBar\/04_Furnishing@0,5x.jpg": {
+	"\/source\/img\/chapter-lobby\/modal-defined-zones\/05_Restaurant\/02_Host.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 128714,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/build\/img\/chapter-lobby\/modal-defined-zones\/05_RestaurantBar\/04_Furnishing@0,5x.jpg",
+		"oAP": "\/build\/img\/chapter-lobby\/modal-defined-zones\/05_Restaurant\/02_Host.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
-	"\/source\/img\/chapter-lobby\/modal-defined-zones\/05_RestaurantBar\/05_Style.jpg": {
+	"\/source\/img\/chapter-lobby\/modal-defined-zones\/05_Restaurant\/02_Host@0,5x.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 37174,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/build\/img\/chapter-lobby\/modal-defined-zones\/05_RestaurantBar\/05_Style.jpg",
+		"oAP": "\/build\/img\/chapter-lobby\/modal-defined-zones\/05_Restaurant\/02_Host@0,5x.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
-	"\/source\/img\/chapter-lobby\/modal-defined-zones\/05_RestaurantBar\/05_Style@0,5x.jpg": {
+	"\/source\/img\/chapter-lobby\/modal-defined-zones\/05_Restaurant\/03_Architecture.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 187374,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/build\/img\/chapter-lobby\/modal-defined-zones\/05_RestaurantBar\/05_Style@0,5x.jpg",
+		"oAP": "\/build\/img\/chapter-lobby\/modal-defined-zones\/05_Restaurant\/03_Architecture.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
-	"\/source\/img\/chapter-lobby\/modal-defined-zones\/06_MarketBistro\/01_Purpose.jpg": {
+	"\/source\/img\/chapter-lobby\/modal-defined-zones\/05_Restaurant\/03_Architecture@0,5x.jpg": {
 		"ft": 16384,
-		"iS": 100992,
+		"iS": 55661,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/build\/img\/chapter-lobby\/modal-defined-zones\/06_MarketBistro\/01_Purpose.jpg",
+		"oAP": "\/build\/img\/chapter-lobby\/modal-defined-zones\/05_Restaurant\/03_Architecture@0,5x.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
-	"\/source\/img\/chapter-lobby\/modal-defined-zones\/06_MarketBistro\/01_Purpose@0,5x.jpg": {
+	"\/source\/img\/chapter-lobby\/modal-defined-zones\/05_Restaurant\/04_Furnishings.jpg": {
 		"ft": 16384,
-		"iS": 32903,
+		"iS": 117943,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/build\/img\/chapter-lobby\/modal-defined-zones\/06_MarketBistro\/01_Purpose@0,5x.jpg",
+		"oAP": "\/build\/img\/chapter-lobby\/modal-defined-zones\/05_Restaurant\/04_Furnishings.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
-	"\/source\/img\/chapter-lobby\/modal-defined-zones\/06_MarketBistro\/02_Host.jpg": {
+	"\/source\/img\/chapter-lobby\/modal-defined-zones\/05_Restaurant\/04_Furnishings@0,5x.jpg": {
 		"ft": 16384,
-		"iS": 109931,
+		"iS": 42183,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/build\/img\/chapter-lobby\/modal-defined-zones\/06_MarketBistro\/02_Host.jpg",
+		"oAP": "\/build\/img\/chapter-lobby\/modal-defined-zones\/05_Restaurant\/04_Furnishings@0,5x.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
-	"\/source\/img\/chapter-lobby\/modal-defined-zones\/06_MarketBistro\/02_Host@0,5x.jpg": {
+	"\/source\/img\/chapter-lobby\/modal-defined-zones\/05_Restaurant\/05_Style.jpg": {
 		"ft": 16384,
-		"iS": 36247,
+		"iS": 180887,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/build\/img\/chapter-lobby\/modal-defined-zones\/06_MarketBistro\/02_Host@0,5x.jpg",
+		"oAP": "\/build\/img\/chapter-lobby\/modal-defined-zones\/05_Restaurant\/05_Style.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
-	"\/source\/img\/chapter-lobby\/modal-defined-zones\/06_MarketBistro\/03_Architecture.jpg": {
+	"\/source\/img\/chapter-lobby\/modal-defined-zones\/05_Restaurant\/05_Style@0,5x.jpg": {
 		"ft": 16384,
-		"iS": 147675,
+		"iS": 56167,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/build\/img\/chapter-lobby\/modal-defined-zones\/06_MarketBistro\/03_Architecture.jpg",
+		"oAP": "\/build\/img\/chapter-lobby\/modal-defined-zones\/05_Restaurant\/05_Style@0,5x.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
-	"\/source\/img\/chapter-lobby\/modal-defined-zones\/06_MarketBistro\/03_Architecture@0,5x.jpg": {
+	"\/source\/img\/chapter-lobby\/modal-defined-zones\/05_Restaurant\/06_Design.jpg": {
 		"ft": 16384,
-		"iS": 45151,
+		"iS": 138072,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/build\/img\/chapter-lobby\/modal-defined-zones\/06_MarketBistro\/03_Architecture@0,5x.jpg",
+		"oAP": "\/build\/img\/chapter-lobby\/modal-defined-zones\/05_Restaurant\/06_Design.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
-	"\/source\/img\/chapter-lobby\/modal-defined-zones\/06_MarketBistro\/04_Furnishings.jpg": {
+	"\/source\/img\/chapter-lobby\/modal-defined-zones\/05_Restaurant\/06_Design@0,5x.jpg": {
 		"ft": 16384,
-		"iS": 85317,
+		"iS": 44929,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/build\/img\/chapter-lobby\/modal-defined-zones\/06_MarketBistro\/04_Furnishings.jpg",
+		"oAP": "\/build\/img\/chapter-lobby\/modal-defined-zones\/05_Restaurant\/06_Design@0,5x.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
-	"\/source\/img\/chapter-lobby\/modal-defined-zones\/06_MarketBistro\/04_Furnishings@0,5x.jpg": {
+	"\/source\/img\/chapter-lobby\/modal-defined-zones\/06_TechLab\/01_Purpose.jpg": {
 		"ft": 16384,
-		"iS": 28052,
+		"iS": 130741,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/build\/img\/chapter-lobby\/modal-defined-zones\/06_MarketBistro\/04_Furnishings@0,5x.jpg",
+		"oAP": "\/build\/img\/chapter-lobby\/modal-defined-zones\/06_TechLab\/01_Purpose.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
-	"\/source\/img\/chapter-lobby\/modal-defined-zones\/06_MarketBistro\/05_Style.jpg": {
+	"\/source\/img\/chapter-lobby\/modal-defined-zones\/06_TechLab\/01_Purpose@0,5x.jpg": {
 		"ft": 16384,
-		"iS": 93118,
+		"iS": 40835,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/build\/img\/chapter-lobby\/modal-defined-zones\/06_MarketBistro\/05_Style.jpg",
+		"oAP": "\/build\/img\/chapter-lobby\/modal-defined-zones\/06_TechLab\/01_Purpose@0,5x.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
-	"\/source\/img\/chapter-lobby\/modal-defined-zones\/06_MarketBistro\/05_Style@0,5x.jpg": {
+	"\/source\/img\/chapter-lobby\/modal-defined-zones\/06_TechLab\/02_Host.jpg": {
 		"ft": 16384,
-		"iS": 28594,
+		"iS": 99107,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/build\/img\/chapter-lobby\/modal-defined-zones\/06_MarketBistro\/05_Style@0,5x.jpg",
+		"oAP": "\/build\/img\/chapter-lobby\/modal-defined-zones\/06_TechLab\/02_Host.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/source\/img\/chapter-lobby\/modal-defined-zones\/06_TechLab\/02_Host@0,5x.jpg": {
+		"ft": 16384,
+		"iS": 37785,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/build\/img\/chapter-lobby\/modal-defined-zones\/06_TechLab\/02_Host@0,5x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/source\/img\/chapter-lobby\/modal-defined-zones\/06_TechLab\/03_Architecture.jpg": {
+		"ft": 16384,
+		"iS": 143250,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/build\/img\/chapter-lobby\/modal-defined-zones\/06_TechLab\/03_Architecture.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/source\/img\/chapter-lobby\/modal-defined-zones\/06_TechLab\/03_Architecture@0,5x.jpg": {
+		"ft": 16384,
+		"iS": 49541,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/build\/img\/chapter-lobby\/modal-defined-zones\/06_TechLab\/03_Architecture@0,5x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/source\/img\/chapter-lobby\/modal-defined-zones\/06_TechLab\/04_Furnishings.jpg": {
+		"ft": 16384,
+		"iS": 102442,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/build\/img\/chapter-lobby\/modal-defined-zones\/06_TechLab\/04_Furnishings.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/source\/img\/chapter-lobby\/modal-defined-zones\/06_TechLab\/04_Furnishings@0,5x.jpg": {
+		"ft": 16384,
+		"iS": 39942,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/build\/img\/chapter-lobby\/modal-defined-zones\/06_TechLab\/04_Furnishings@0,5x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/source\/img\/chapter-lobby\/modal-defined-zones\/06_TechLab\/06_Design.jpg": {
+		"ft": 16384,
+		"iS": 109777,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/build\/img\/chapter-lobby\/modal-defined-zones\/06_TechLab\/06_Design.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/source\/img\/chapter-lobby\/modal-defined-zones\/06_TechLab\/06_Design@0,5x.jpg": {
+		"ft": 16384,
+		"iS": 40916,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/build\/img\/chapter-lobby\/modal-defined-zones\/06_TechLab\/06_Design@0,5x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/source\/img\/chapter-lobby\/modal-defined-zones\/07_TheMarket\/01_Purpose.jpg": {
+		"ft": 16384,
+		"iS": 140252,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/build\/img\/chapter-lobby\/modal-defined-zones\/07_TheMarket\/01_Purpose.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/source\/img\/chapter-lobby\/modal-defined-zones\/07_TheMarket\/01_Purpose@0,5x.jpg": {
+		"ft": 16384,
+		"iS": 45893,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/build\/img\/chapter-lobby\/modal-defined-zones\/07_TheMarket\/01_Purpose@0,5x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/source\/img\/chapter-lobby\/modal-defined-zones\/07_TheMarket\/02_Host.jpg": {
+		"ft": 16384,
+		"iS": 160564,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/build\/img\/chapter-lobby\/modal-defined-zones\/07_TheMarket\/02_Host.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/source\/img\/chapter-lobby\/modal-defined-zones\/07_TheMarket\/02_Host@0,5x.jpg": {
+		"ft": 16384,
+		"iS": 52212,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/build\/img\/chapter-lobby\/modal-defined-zones\/07_TheMarket\/02_Host@0,5x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/source\/img\/chapter-lobby\/modal-defined-zones\/07_TheMarket\/03_Architecture.jpg": {
+		"ft": 16384,
+		"iS": 129441,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/build\/img\/chapter-lobby\/modal-defined-zones\/07_TheMarket\/03_Architecture.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/source\/img\/chapter-lobby\/modal-defined-zones\/07_TheMarket\/03_Architecture@0,5x.jpg": {
+		"ft": 16384,
+		"iS": 47560,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/build\/img\/chapter-lobby\/modal-defined-zones\/07_TheMarket\/03_Architecture@0,5x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/source\/img\/chapter-lobby\/modal-defined-zones\/07_TheMarket\/04_Furnishings.jpg": {
+		"ft": 16384,
+		"iS": 169690,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/build\/img\/chapter-lobby\/modal-defined-zones\/07_TheMarket\/04_Furnishings.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/source\/img\/chapter-lobby\/modal-defined-zones\/07_TheMarket\/04_Furnishings@0,5x.jpg": {
+		"ft": 16384,
+		"iS": 50649,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/build\/img\/chapter-lobby\/modal-defined-zones\/07_TheMarket\/04_Furnishings@0,5x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/source\/img\/chapter-lobby\/modal-defined-zones\/07_TheMarket\/05_Style.jpg": {
+		"ft": 16384,
+		"iS": 105395,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/build\/img\/chapter-lobby\/modal-defined-zones\/07_TheMarket\/05_Style.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/source\/img\/chapter-lobby\/modal-defined-zones\/07_TheMarket\/05_Style@0,5x.jpg": {
+		"ft": 16384,
+		"iS": 40544,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/build\/img\/chapter-lobby\/modal-defined-zones\/07_TheMarket\/05_Style@0,5x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/source\/img\/chapter-lobby\/modal-defined-zones\/07_TheMarket\/06_Design.jpg": {
+		"ft": 16384,
+		"iS": 159831,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/build\/img\/chapter-lobby\/modal-defined-zones\/07_TheMarket\/06_Design.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/source\/img\/chapter-lobby\/modal-defined-zones\/07_TheMarket\/06_Design@0,5x.jpg": {
+		"ft": 16384,
+		"iS": 52169,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/build\/img\/chapter-lobby\/modal-defined-zones\/07_TheMarket\/06_Design@0,5x.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
@@ -12731,18 +12979,25 @@
 		"oAP": "\/build\/includes\/defined-zones-modals\/_arrival.html",
 		"oF": 0
 		},
-	"\/source\/includes\/defined-zones-modals\/_bistro.kit": {
+	"\/source\/includes\/defined-zones-modals\/_gathering-lounge.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"oA": 1,
-		"oAP": "\/build\/includes\/defined-zones-modals\/_bistro.html",
+		"oAP": "\/build\/includes\/defined-zones-modals\/_gathering-lounge.html",
 		"oF": 0
 		},
-	"\/source\/includes\/defined-zones-modals\/_lounge.kit": {
+	"\/source\/includes\/defined-zones-modals\/_kinetic-lounge.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"oA": 1,
-		"oAP": "\/build\/includes\/defined-zones-modals\/_lounge.html",
+		"oAP": "\/build\/includes\/defined-zones-modals\/_kinetic-lounge.html",
+		"oF": 0
+		},
+	"\/source\/includes\/defined-zones-modals\/_market.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/build\/includes\/defined-zones-modals\/_market.html",
 		"oF": 0
 		},
 	"\/source\/includes\/defined-zones-modals\/_reception.kit": {
