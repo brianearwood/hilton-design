@@ -35,7 +35,7 @@
     }
   }
   .map-img-container {
-    width: 90%;
+    width: 70%;
     display: inline-block;
     position: relative;
   }
@@ -47,52 +47,65 @@
 
     @keyframes pulse {
       0% {
-        fill-opacity: 0.1;
+        fill-opacity: 0.4;
       }
       50% {
-        fill-opacity: 0.3;
+        fill-opacity: 0.7;
       }
       100% {
-        fill-opacity: 0.1;
+        fill-opacity: 0.4;
       }
     }
 
     .zone-circle {
-      fill-opacity: 0.1;
-      stroke: rgba(#000000, 0.0);
-      stroke-width: 2px;
+      fill-opacity: 0.4;
+      // stroke: rgba(#000000, 0.0);
+      // stroke-width: 2px;
       cursor: pointer;
       
       
       &.active {
-        fill-opacity: 0.5;
+        fill-opacity: 0.7;
         animation: pulse 1s ease infinite;
       }
     }
-    .cls-1 {
-      fill: $middle-blue;
-      &.active { stroke: rgba($middle-blue, 0.5); }
-    }
-    .cls-2 {
-      fill: $dark-blue;
-      &.active { stroke: rgba($dark-blue, 0.5); }
-    }
-    .cls-3 {
-      fill: $black;
-      &.active { stroke: rgba($black, 0.5); }
-    }
-    .cls-4 {
-      fill: lighten($middle-gray, 5%);
-      &.active { stroke: rgba($middle-gray, 0.5); }
-    }
-    .cls-5 {
-      fill: $purple;
-      &.active { stroke: rgba($purple, 0.5); }
-    }
-    .cls-6 {
-      fill: $pink;
-      &.active { stroke: rgba($pink, 0.5); }
-    }
+    // .cls-1 {
+    //   fill: $middle-blue;
+    //   &.active { stroke: rgba($middle-blue, 0.7); }
+    // }
+    // .cls-2 {
+    //   fill: $dark-blue;
+    //   &.active { stroke: rgba($dark-blue, 0.7); }
+    // }
+    // .cls-3 {
+    //   fill: $black;
+    //   &.active { stroke: rgba($black, 0.7); }
+    // }
+    // .cls-4 {
+    //   fill: lighten($middle-gray, 5%);
+    //   &.active { stroke: rgba($middle-gray, 0.7); }
+    // }
+    // .cls-5 {
+    //   fill: $purple;
+    //   &.active { stroke: rgba($purple, 0.7); }
+    // }
+    // .cls-6 {
+    //   fill: $pink;
+    //   &.active { stroke: rgba($pink, 0.7); }
+    // }
+    // .cls-7 {
+    //   fill: $bright-purple;
+    //   &.active { stroke: rgba($bright-purple, 0.7); }
+    // }
+
+    .cls-1{fill:#2f358f;}
+    .cls-2{fill:#beb1ee;}
+    .cls-3{fill:#0d7138;}
+    .cls-4{fill:#f69331;}
+    .cls-5{fill:#eb1d5d;}
+    .cls-6{fill:#add178;}
+    .cls-7{fill:#fef372;}
+    .cls-8{fill:#71d0f5;}
   }
 
   .defined-zones-nav {
@@ -137,37 +150,37 @@
     }
     .zone-nav-01 {
       .letter {
-        background: $middle-blue;
+        background: #fef372;
       }
     }
     .zone-nav-02 {
       .letter {
-        background: $dark-blue;
+        background: #f69331;
       }
     }
     .zone-nav-03 {
       .letter {
-        background: $black;
+        background: #eb1d5d;
       }
     }
     .zone-nav-04 {
       .letter {
-        background: $middle-gray;
+        background: #71d0f5;
       }
     }
     .zone-nav-05 {
       .letter {
-        background: $purple;
+        background: #2f358f;
       }
     }
     .zone-nav-06 {
       .letter {
-        background: $pink;
+        background: #add178;
       }
     }
     .zone-nav-07 {
       .letter {
-        background: $bright-purple;
+        background: #beb1ee;
       }
     }
   }
