@@ -199,46 +199,52 @@
 
       // Type 2 Modal (Case Studies)
       function start_case_study_modal() {
-        
+        var image_list, prev_btn, next_btn, show_tooltip;
+
         $(document).on('shown.bs.modal', function (e) {
-          var image_list = $('.modal.type-2:visible .image');
+          image_list = $('.modal.type-2:visible .image');
           image_list.each( function (index,elem) {
             $(elem).removeClass('active');
             console.log(elem);
           });
-          // console.log($(image_list).first());
           image_list.first().addClass('active');
+
+          prev_btn = $('.modal.type-2:visible .modal-nav-arrow-prev');
+          next_btn = $('.modal.type-2:visible .modal-nav-arrow-next');
+
+          prev_btn.on('click', function (event) {
+            if ( $('.modal.type-2:visible .image.active').prev().length != 0 ) {
+              $('.modal.type-2:visible .image.active').removeClass('active').prev().addClass('active');
+            } 
+            else {
+              $('.modal.type-2:visible .image.active').removeClass('active').siblings().last().addClass('active');
+            }
+          });
+
+          next_btn.on('click', function (event) {
+            if ( $('.modal.type-2:visible .image.active').next().length != 0 ) {
+              $('.modal.type-2:visible .image.active').removeClass('active').next().addClass('active');
+            }
+            else {
+              $('.modal.type-2:visible .image.active').removeClass('active').siblings().first().addClass('active');
+            }
+          });
+
+          show_tooltip = $("svg .svg-showtip");
+          show_tooltip.on("click", function(event){
+            $("#" + event.currentTarget.id.replace("plus","tooltip")).fadeToggle();
+          });
         });
-        $(document).on('hidden.bs.modal', function (e) {
-          
-        });
+        $(document).on('hide.bs.modal', function (e) {
+          image_list = "";
+          prev_btn.off('click');
+          next_btn.off('click');
+          show_tooltip.off("click");
+        })
         
-        var prev_btn = $('.modal.type-2 .modal-nav-arrow-prev');
-        var next_btn = $('.modal.type-2 .modal-nav-arrow-next');
         
-        prev_btn.on('click', function (event) {
-          // console.log($('.modal.type-2 .image.active').prev().length)
-          if ( $('.modal.type-2 .image.active').prev().length != 0 ) {
-            $('.modal.type-2 .image.active').removeClass('active').prev().addClass('active');
-          } 
-          else {
-            $('.modal.type-2 .image.active').removeClass('active').siblings().last().addClass('active');
-          }
-        });
-
-        next_btn.on('click', function (event) {
-          if ( $('.modal.type-2 .image.active').next().length != 0 ) {
-            $('.modal.type-2 .image.active').removeClass('active').next().addClass('active');
-          }
-          else {
-            $('.modal.type-2 .image.active').removeClass('active').siblings().first().addClass('active');
-          }
-        });
-
-
-        $("svg .svg-showtip").on("click", function(event){
-          $("#" + event.currentTarget.id.replace("plus","tooltip")).fadeToggle();
-        });
+        
+        
       }
       start_case_study_modal();
 
