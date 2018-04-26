@@ -28,6 +28,21 @@
   
 }
 
+.floating-container-worldly {
+  bottom: 60px;
+  left: 0;
+  max-width: 40rem;
+  @media only screen and (max-width: $bp-medium - 1) {
+    position: static;
+    display: block;
+  }
+}
+.overview-design-drivers-02 {
+  .image-wrapper {
+    padding: 5vw;
+  }
+}
+
 
 .modal-page {
   .heading {

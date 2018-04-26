@@ -77,13 +77,27 @@
   @media only screen and (max-width: $bp-medium - 1) {
     // padding-top: 2vw;
   }
+
+  &__full-width-image {
+    
+  }
 }
 
 
 
 .full-width-hero-over-text-columns {
-
-
+  .image-wrapper {
+    height: auto;
+    line-height: 0;
+  }
+  .section__content {
+    @media only screen and (max-width: $bp-large - 1) {
+      padding: 3vw;
+    }
+    @media only screen and (max-width: $bp-large - 1) {
+      padding: 4vw;
+    }
+  }
 }
 
 
