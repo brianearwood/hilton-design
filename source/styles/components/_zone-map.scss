@@ -36,8 +36,12 @@
   }
   .map-img-container {
     width: 70%;
+    padding-top: 6vw;
     display: inline-block;
     position: relative;
+    @media (min-width: $bp-large) {
+      padding-top: 3vw;
+    }
   }
 
   #defined-zones-svg {
