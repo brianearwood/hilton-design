@@ -1,5 +1,10 @@
 .zone-map {
-
+  
+  ul.dashed li {
+    margin: 0 0 0.5rem 0;
+    line-height: 1.3;
+    font-size: 0.85rem;
+  }
   .zone {
     position: absolute;
     left: -9999px;
@@ -19,7 +24,10 @@
       position: static;
     }
   }
-
+  
+  .section__content {
+    padding: 6vw 1vw 0 3vw;
+  }
 
   .modal-link {
     .letter {
@@ -46,7 +54,7 @@
 
   #defined-zones-svg {
     position: absolute;
-    top: 0;
+    bottom: 0;
     left: 0;
 
     @keyframes pulse {
