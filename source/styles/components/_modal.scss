@@ -471,6 +471,54 @@
 
 
 
+.hilton-modal.type-2 .svg-tooltip {
+  path[id^="tooltip"] {
+    fill: $white;
+    opacity: 1.0;
+  }
+  
+}
+.hilton-modal.type-2 g.svg-showtip {
+  fill: $middle-blue;
+  stroke: $white;
+  stroke-width: 2px;
+  // .cls-1{fill:#fff;stroke-width:2px;}
+  // .cls-1,
+  // .cls-3,
+  // .cls-4{stroke:#fff;stroke-miterlimit:10;}
+  // .cls-2{fill:#231f20;}
+  // .cls-3{fill:#06a7e0;stroke-width:1.33px;opacity:0.9;}
+  // .cls-4{fill:none;stroke-width:4.67px;}
+
+  // .cls-1,
+  // .cls-5{
+  //   fill: $middle-blue;
+  //   // stroke-width:2px;
+  // }
+  // .cls-1,
+  // .cls-3,
+  // .cls-4{
+  //   // stroke:#fff;
+  //   // stroke-miterlimit:10;
+  // }
+  // .cls-2,
+  // .cls-6{
+  //   fill: $white;
+  //   stroke: $white;
+  //   stroke-width: 2px;
+  // }
+  // .cls-3{
+  //   fill: $white;
+  //   // stroke-width:1.33px;
+  //   opacity: 1.0;
+  // }
+  // .cls-4{
+  //   fill: $black;
+  //   // stroke-width:4.67px;
+  // }
+}
+
+
 
 
 

@@ -37,8 +37,8 @@
   }
   .case-study {
     .row-bg-image {
-      background-position: center;
-      background-size: cover;
+      background-position: center !important;
+      background-size: cover !important;
       @media only screen and (max-width: $bp-medium - 1) {
         background: transparent !important;
       }

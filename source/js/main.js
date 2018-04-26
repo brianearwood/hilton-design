@@ -198,31 +198,49 @@
 
 
       // Type 2 Modal (Case Studies)
-      var image_list = $('.modal.type-2 .image');
-      var prev_btn = $('.modal.type-2 .modal-nav-arrow-prev');
-      var next_btn = $('.modal.type-2 .modal-nav-arrow-next');
-      prev_btn.on('click', function (event) {
-        // console.log($('.modal.type-2 .image.active').prev().length)
-        if ( $('.modal.type-2 .image.active').prev().length != 0 ) {
-          $('.modal.type-2 .image.active').removeClass('active').prev().addClass('active');
-        } 
-        else {
-          $('.modal.type-2 .image.active').removeClass('active').siblings().last().addClass('active');
-        }
-      });
-      next_btn.on('click', function (event) {
-        if ( $('.modal.type-2 .image.active').next().length != 0 ) {
-          $('.modal.type-2 .image.active').removeClass('active').next().addClass('active');
-        }
-        else {
-          $('.modal.type-2 .image.active').removeClass('active').siblings().first().addClass('active');
-        }
-      });
+      function start_case_study_modal() {
+        
+        $(document).on('shown.bs.modal', function (e) {
+          var image_list = $('.modal.type-2:visible .image');
+          image_list.each( function (index,elem) {
+            $(elem).removeClass('active');
+            console.log(elem);
+          });
+          // console.log($(image_list).first());
+          image_list.first().addClass('active');
+        });
+        $(document).on('hidden.bs.modal', function (e) {
+          
+        });
+        
+        var prev_btn = $('.modal.type-2 .modal-nav-arrow-prev');
+        var next_btn = $('.modal.type-2 .modal-nav-arrow-next');
+        
+        prev_btn.on('click', function (event) {
+          // console.log($('.modal.type-2 .image.active').prev().length)
+          if ( $('.modal.type-2 .image.active').prev().length != 0 ) {
+            $('.modal.type-2 .image.active').removeClass('active').prev().addClass('active');
+          } 
+          else {
+            $('.modal.type-2 .image.active').removeClass('active').siblings().last().addClass('active');
+          }
+        });
+
+        next_btn.on('click', function (event) {
+          if ( $('.modal.type-2 .image.active').next().length != 0 ) {
+            $('.modal.type-2 .image.active').removeClass('active').next().addClass('active');
+          }
+          else {
+            $('.modal.type-2 .image.active').removeClass('active').siblings().first().addClass('active');
+          }
+        });
 
 
-      $("svg .svg-showtip").on("click", function(event){
-        $("#" + event.currentTarget.id.replace("plus","tooltip")).fadeToggle();
-      });
+        $("svg .svg-showtip").on("click", function(event){
+          $("#" + event.currentTarget.id.replace("plus","tooltip")).fadeToggle();
+        });
+      }
+      start_case_study_modal();
 
 
       // Defined Zones hover effect buttons
