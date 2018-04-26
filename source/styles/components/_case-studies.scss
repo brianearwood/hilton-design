@@ -35,29 +35,17 @@
 
     }
   }
-  .lobby-case-studies-des-moines {
+  .case-study {
     .row-bg-image {
-      background: url("/img/chapter-lobby/case-studies/01_DesMoines/01_Cover.jpg");
       background-position: center;
       background-size: cover;
+      @media only screen and (max-width: $bp-medium - 1) {
+        background: transparent !important;
+      }
     }
-  }
 
-  .lobby-case-studies-buena-park {
-    .row-bg-image {
-      background: url("/img/chapter-lobby/case-studies/02_BuenaPark/Cover.jpg");
-      background-position: center;
-      background-size: cover;
-    }
   }
-
-  .lobby-case-studies-santa-fe {
-    .row-bg-image {
-      background: url("/img/chapter-lobby/case-studies/03_SantaFe/Lobby.jpg");
-      background-position: center;
-      background-size: cover;
-    }
-  }
+  
   
   @media only screen and (max-width: $bp-medium - 1) {
     .section__content {
